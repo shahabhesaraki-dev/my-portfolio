@@ -72,7 +72,7 @@ const SectionTwo = () => {
         </FirstSection>
         <SecondSection>
           <SecondContent>
-            <Title>Back-End / Tools</Title>
+            <Title>Back-End/ Tools</Title>
             <Ul>
               <Li>
                 <Image style={{ width: "55px", marginTop: "8px" }} src={NODE} />
@@ -170,7 +170,7 @@ const SectionTwo = () => {
           </Ul>
         </ResponsiveFirstContent>
         <ResponsiveSecondContent>
-          <Title>Back-End / Tools</Title>
+          <Title>Back-End/Tools</Title>
           <Ul>
             <Li>
               <Image style={{ width: "55px", marginTop: "8px" }} src={NODE} />
@@ -331,7 +331,7 @@ const Title = styled.h1`
   @media (min-width: 701px) {
     max-width: 40vw;
   }
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: 900;
   line-height: 1.1;
   color: #4831d4;
