@@ -24,10 +24,8 @@ const SectionOne = () => {
             <TextDiv>
               <Title>Full-Stack</Title>
               <Title>Developer</Title>
-              <Paragraph>
-                I like to craft solid and scalable frontend and backend
-              </Paragraph>
-              <Paragraph>products with great user experiences.</Paragraph>
+              <Paragraph>I like to craft solid and scalable</Paragraph>
+              <Paragraph>applications with great user experiences.</Paragraph>
             </TextDiv>
           </Article>
 
@@ -76,7 +74,7 @@ const SectionOne = () => {
       <WrapperTwo>
         <PartTwo>
           <FigureTwo>
-            <SecondSvgTwo
+            {/* <SecondSvgTwo
               xmlns="http://www.w3.org/2000/svg"
               width="935"
               height="701"
@@ -98,7 +96,7 @@ const SectionOne = () => {
                 strokeWidth="2"
                 d="M846.646 332.048v0l22.258.562v0l-.56-22.26v0l22.258.56v0l-.56-22.258v0l22.259.56v0l-.56-22.257v0l22.26.559v0l-.56-22.26v0"
               ></path>
-            </SecondSvgTwo>
+            </SecondSvgTwo> */}
             <SpanTwo />
           </FigureTwo>
         </PartTwo>
@@ -151,14 +149,12 @@ const WrapperTwo = styled.div`
     display: none;
   }
 
-  @media (max-width: 581px) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 4.17rem;
-    background: #ccf381;
-    max-width: 100%;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4.17rem;
+  background: #ccf381;
+  max-width: 100%;
 `;
 
 const PartOne = styled.div`
@@ -213,7 +209,7 @@ const Paragraph = styled.p`
   @media (max-width: 581px) {
     font-size: 1.4em;
     margin-top: 20px;
-    line-height: 1;
+    line-height: 0.5;
   }
 `;
 

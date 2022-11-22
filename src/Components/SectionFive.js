@@ -109,7 +109,7 @@ const Wrapper = styled.div`
     padding: 0 7rem;
   }
   @media (max-width: 580px) {
-    padding: 0 15vw;
+    padding: 0 10vw;
   }
 `;
 
@@ -151,7 +151,7 @@ const FormDiv = styled.div`
   align-items: center;
   justify-content: center;
   width: 60%;
-  min-width: 500px;
+  min-width: 370px;
   @media (max-width: 580px) {
     width: 100%;
   }
@@ -204,7 +204,7 @@ const Button = styled.a`
   overflow: hidden;
   background: transparent;
   white-space: nowrap;
-  min-width: 23.222em;
+  min-width: 19.222em;
   font-family: Abel;
   text-decoration: none;
   margin-top: 20px;
