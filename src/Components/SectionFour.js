@@ -23,20 +23,19 @@ const SectionFour = () => {
                     height="22"
                     viewBox="0 0 72 22"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="bow-arrow"
                   >
                     <path
                       fill="none"
                       stroke="#4831D4"
-                      stroke-width="2"
-                      stroke-miterlimit="0"
+                      strokeWidth="2"
+                      strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                     ></path>
                     <Path
                       fill="none"
                       stroke="#4831D4"
-                      stroke-width="2"
-                      stroke-miterlimit="0"
+                      strokeWidth="2"
+                      strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                     ></Path>
                   </SvgButton>
@@ -61,20 +60,19 @@ const SectionFour = () => {
                     height="22"
                     viewBox="0 0 72 22"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="bow-arrow"
                   >
                     <path
                       fill="none"
                       stroke="#4831D4"
-                      stroke-width="2"
-                      stroke-miterlimit="0"
+                      strokeWidth="2"
+                      strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                     ></path>
                     <Path
                       fill="none"
                       stroke="#4831D4"
-                      stroke-width="2"
-                      stroke-miterlimit="0"
+                      strokeWidth="2"
+                      strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                     ></Path>
                   </SvgButton>
@@ -104,20 +102,19 @@ const SectionFour = () => {
                     height="22"
                     viewBox="0 0 72 22"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="bow-arrow"
                   >
                     <path
                       fill="none"
                       stroke="#4831D4"
-                      stroke-width="2"
-                      stroke-miterlimit="0"
+                      strokeWidth="2"
+                      strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                     ></path>
                     <Path
                       fill="none"
                       stroke="#4831D4"
-                      stroke-width="2"
-                      stroke-miterlimit="0"
+                      strokeWidth="2"
+                      strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                     ></Path>
                   </SvgButton>
@@ -142,20 +139,19 @@ const SectionFour = () => {
                     height="22"
                     viewBox="0 0 72 22"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="bow-arrow"
                   >
                     <path
                       fill="none"
                       stroke="#4831D4"
-                      stroke-width="2"
-                      stroke-miterlimit="0"
+                      strokeWidth="2"
+                      strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                     ></path>
                     <Path
                       fill="none"
                       stroke="#4831D4"
-                      stroke-width="2"
-                      stroke-miterlimit="0"
+                      strokeWidth="2"
+                      strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                     ></Path>
                   </SvgButton>
@@ -203,6 +199,7 @@ const Wrapper = styled.div`
   width: 100%;
   position: relative;
   justify-content: center;
+  margin-top: 10px;
 `;
 
 const SubDiv = styled.div`
@@ -293,7 +290,6 @@ const Title = styled.h1`
   font-family: Acme;
   font-size: 3.2em;
   margin: 0;
-
   font-weight: 900;
   line-height: 1.1;
   color: #4831d4;

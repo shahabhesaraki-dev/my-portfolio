@@ -52,8 +52,8 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#4831D4"
-                stroke-width="2"
-                stroke-miterlimit="50"
+                strokeWidth="2"
+                strokeMiterlimit="50"
                 d="M438.8 420.9h-36m18 18v-36M239.2 15.7c0 4.4-3.6 7.9-8 7.8-4.3 0-7.8-3.5-7.8-7.8 0-4.4 3.5-7.9 7.9-7.9s7.9 3.5 7.9 7.9h0zm28.1 0c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9h0c0-4.4 3.5-7.9 7.9-7.9 4.3 0 7.8 3.6 7.9 7.9zm28 0c0 4.4-3.6 7.9-8 7.8-4.3 0-7.8-3.5-7.8-7.8 0-4.4 3.5-7.9 7.9-7.9s7.9 3.5 7.9 7.9h0zm28.1 0c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9 3.5-7.9 7.9-7.9 7.9 3.6 7.9 7.9zm28.1 0c0 4.4-3.6 7.9-8 7.8-4.3 0-7.8-3.5-7.8-7.8 0-4.4 3.5-7.9 7.9-7.9s7.9 3.6 7.9 7.9zm332.9 697c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9h0c0-4.4 3.5-7.9 7.9-7.9 4.4.1 7.9 3.6 7.9 7.9zm28.1 0c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9h0c0-4.4 3.5-7.9 7.9-7.9s7.9 3.6 7.9 7.9h0zm28 0c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9h0c0-4.4 3.5-7.9 7.9-7.9 4.4.1 7.9 3.6 7.9 7.9zm28.1 0c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9h0c0-4.4 3.5-7.9 7.9-7.9s7.9 3.6 7.9 7.9h0zm28.1 0c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9h0c0-4.4 3.5-7.9 7.9-7.9 4.3.1 7.9 3.6 7.9 7.9zM717 298.8h0l22.3.6h0l-.6-22.3h0l22.3.6h0l-.6-22.3h0l22.3.6h0l-.6-22.3h0l22.3.6h0l-.6-22.3h0"
               ></path>
               <path
@@ -72,9 +72,9 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFF"
-                stroke-width="1.5"
-                stroke-linecap="square"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="square"
+                strokeMiterlimit="50"
                 d="M601 68.9s-13.5 1.4-26.2 59.2"
               ></path>
               <path
@@ -105,7 +105,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__b)">
+              <g clipPath="url(#olaolu-work-illo_svg__b)">
                 <path
                   fill="#432FC6"
                   d="M460.1 398.6c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16 8.8 15.3 18z"
@@ -123,7 +123,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__d)">
+              <g clipPath="url(#olaolu-work-illo_svg__d)">
                 <path
                   fill="#432FC6"
                   d="M527.2 404c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -141,7 +141,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__f)">
+              <g clipPath="url(#olaolu-work-illo_svg__f)">
                 <path
                   fill="#432FC6"
                   d="M594.4 409.5c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16 8.8 15.3 18z"
@@ -159,7 +159,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__h)">
+              <g clipPath="url(#olaolu-work-illo_svg__h)">
                 <path
                   fill="#432FC6"
                   d="M497.4 354.9c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16.1 8.8 15.3 18z"
@@ -177,7 +177,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__j)">
+              <g clipPath="url(#olaolu-work-illo_svg__j)">
                 <path
                   fill="#432FC6"
                   d="M564.6 360.3c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16 8.8 15.3 18z"
@@ -195,7 +195,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__l)">
+              <g clipPath="url(#olaolu-work-illo_svg__l)">
                 <path
                   fill="#432FC6"
                   d="M631.7 365.8c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -213,7 +213,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__n)">
+              <g clipPath="url(#olaolu-work-illo_svg__n)">
                 <path
                   fill="#432FC6"
                   d="M430.3 349.4c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16 8.8 15.3 18z"
@@ -231,7 +231,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__p)">
+              <g clipPath="url(#olaolu-work-illo_svg__p)">
                 <path
                   fill="#432FC6"
                   d="M489.7 447.7c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -249,7 +249,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__r)">
+              <g clipPath="url(#olaolu-work-illo_svg__r)">
                 <path
                   fill="#432FC6"
                   d="M556.9 453.2c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16 8.8 15.3 18z"
@@ -267,7 +267,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__t)">
+              <g clipPath="url(#olaolu-work-illo_svg__t)">
                 <path
                   fill="#432FC6"
                   d="M624 458.6c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -285,7 +285,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__v)">
+              <g clipPath="url(#olaolu-work-illo_svg__v)">
                 <path
                   fill="#432FC6"
                   d="M422.5 442.2c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.3.8 16.1 8.8 15.3 18z"
@@ -303,7 +303,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__x)">
+              <g clipPath="url(#olaolu-work-illo_svg__x)">
                 <path
                   fill="#432FC6"
                   d="M475.4 212.9c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16 8.8 15.3 18z"
@@ -321,7 +321,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__z)">
+              <g clipPath="url(#olaolu-work-illo_svg__z)">
                 <path
                   fill="#432FC6"
                   d="M542.6 218.4c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16 8.8 15.3 18z"
@@ -339,7 +339,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__B)">
+              <g clipPath="url(#olaolu-work-illo_svg__B)">
                 <path
                   fill="#432FC6"
                   d="M609.7 223.8c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -357,7 +357,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__D)">
+              <g clipPath="url(#olaolu-work-illo_svg__D)">
                 <path
                   fill="#432FC6"
                   d="M408.2 207.4c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3 16.1 8.9 15.3 18z"
@@ -375,7 +375,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__F)">
+              <g clipPath="url(#olaolu-work-illo_svg__F)">
                 <path
                   fill="#432FC6"
                   d="M505 262c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18c.7-9.2 8.8-16 18-15.3s16.1 8.9 15.3 18z"
@@ -393,7 +393,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__H)">
+              <g clipPath="url(#olaolu-work-illo_svg__H)">
                 <path
                   fill="#432FC6"
                   d="M572.2 267.5c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18c.7-9.2 8.8-16 18-15.3 9.2.8 16 8.8 15.3 18z"
@@ -411,7 +411,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__J)">
+              <g clipPath="url(#olaolu-work-illo_svg__J)">
                 <path
                   fill="#432FC6"
                   d="M437.9 256.6c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18c.7-9.2 8.8-16 18-15.3 9.2.7 16 8.8 15.3 18z"
@@ -429,7 +429,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__L)">
+              <g clipPath="url(#olaolu-work-illo_svg__L)">
                 <path
                   fill="#432FC6"
                   d="M512.8 169.2c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -447,7 +447,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__N)">
+              <g clipPath="url(#olaolu-work-illo_svg__N)">
                 <path
                   fill="#432FC6"
                   d="M580 174.7c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3 16 8.8 15.3 18z"
@@ -465,7 +465,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__P)">
+              <g clipPath="url(#olaolu-work-illo_svg__P)">
                 <path
                   fill="#432FC6"
                   d="M445.7 163.8c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16 8.8 15.3 18z"
@@ -483,7 +483,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__R)">
+              <g clipPath="url(#olaolu-work-illo_svg__R)">
                 <path
                   fill="#432FC6"
                   d="M534.9 311.2c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -501,7 +501,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__T)">
+              <g clipPath="url(#olaolu-work-illo_svg__T)">
                 <path
                   fill="#432FC6"
                   d="M602.1 316.7c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16 8.8 15.3 18z"
@@ -519,7 +519,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__V)">
+              <g clipPath="url(#olaolu-work-illo_svg__V)">
                 <path
                   fill="#432FC6"
                   d="M400.6 300.3c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16.1 8.8 15.3 18z"
@@ -532,9 +532,9 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFF"
-                stroke-width="1.5"
-                stroke-linecap="square"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="square"
+                strokeMiterlimit="50"
                 d="M646.1 481h0l-12.7-1.3h0l4.2-16h0m-178.9-54.1l11.4-2.9"
               ></path>
               <path
@@ -544,9 +544,9 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFF"
-                stroke-width="1.5"
-                stroke-linecap="square"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="square"
+                strokeMiterlimit="50"
                 d="M677.9 322.8h0l1.8 14.7h0l-18.9-.3h0m-201 24.5h0l10.3 45.2h0l74.1-21.4h0l10.4 32h0l24.1-23.6h0l65.8-8.7h0s19-3 28.4 3"
               ></path>
               <path
@@ -568,8 +568,8 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFEB5C"
-                stroke-width="2"
-                stroke-miterlimit="50"
+                strokeWidth="2"
+                strokeMiterlimit="50"
                 d="M965.4 344.4h14.8m-7.4-7.4v14.8M312.6 510.9h16.1m-8.1-8.1v16.1M107.5 444h15.2m-7.6-7.6v15.2m257.8-121h17.7m-8.9-8.8v17.7m333.7-133.3h12M721.4 200.2v12M848 189.6h10.5M853.3 184.4v10.5"
               ></path>
               <path fill="#432FC6" d="M930 639.3h-85.8v-70.5H930v70.5z"></path>
@@ -577,8 +577,8 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFEB5C"
-                stroke-width="2"
-                stroke-miterlimit="50"
+                strokeWidth="2"
+                strokeMiterlimit="50"
                 d="M879.1 604.1h16M887.1 596.1v16"
               ></path>
               <path
@@ -588,8 +588,8 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFEB5C"
-                stroke-width="2"
-                stroke-miterlimit="50"
+                strokeWidth="2"
+                strokeMiterlimit="50"
                 d="M405.1 133l14.9 14.9M420 133l-14.9 14.9"
               ></path>
               <path
@@ -599,15 +599,11 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFF"
-                stroke-width="1.5"
-                stroke-linecap="square"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="square"
+                strokeMiterlimit="50"
                 d="M575.8 381.5s18.5-4.9 30.3 7.7"
               ></path>
-              {/* <path
-                fill="#CCF381"
-                d="M481.1 546.6c7.2-.5 13.2 5.2 13.2 12.3 0 4.6-2.6 8.7-6.3 10.8-.4.2-.9.4-1.3.6-1.6.6-2.6 2.1-2.6 3.8 0 .9.3 1.8.9 2.5l.3.3c.6.7.9 1.6.9 2.6 0 2.3-1.8 4.1-4.1 4.1h-.4c-1.8-.2-3.3-1.7-3.6-3.5-.2-1.1.1-2.3.9-3.2l.3-.3c.6-.7.9-1.6.9-2.5 0-1.7-1-3.2-2.6-3.8-.4-.2-.9-.3-1.3-.5-4.2-2.3-6.6-6.8-6.3-11.6.1-6.2 5-11.2 11.1-11.6zm.9 17.9c3.1 0 5.6-2.5 5.6-5.6s-2.5-5.6-5.6-5.6-5.6 2.5-5.6 5.6 2.5 5.6 5.6 5.6zM434 534.2h7.5v35.9H434v-35.9zM467.8 547.2v22.9h-7.3V567c-1.3 2.4-4 3.7-7.1 3.7-5.9 0-10.1-5-10.1-12.1s4.2-12.1 10.1-12.1c3.1 0 5.8 1.3 7.1 3.7v-3.1l7.3.1zM450.1 559c0 3.5 2 5.8 5.2 5.8s5.2-2.3 5.2-5.8-2-5.8-5.2-5.8-5.2 2.2-5.2 5.8zM496.2 534.2h7.5v35.9h-7.5v-35.9zM506.3 547.2h7.5v12.9c0 2.6 1.1 3.9 3.3 3.9s3.3-1.3 3.3-3.9v-12.9h7.5v14c0 5.9-4 9.5-10.8 9.5s-10.8-3.6-10.8-9.5v-14zM432 558.5c0 6.7-5.5 12.2-12.1 12.2-6.7 0-12.1-5.4-12.1-12.1 0-6.1 4.9-11.5 11-12 3.3-.3 6.6.8 9.1 3 2.6 2.3 4.1 5.6 4.1 8.9zm-12.1 6c3.1 0 5.6-2.5 5.6-5.6s-2.5-5.6-5.6-5.6-5.6 2.5-5.6 5.6c.1 3.1 2.6 5.6 5.6 5.6zM667.5 185.7c-1-.5-1.8-1.3-2.3-2.3s-.8-2.1-.8-3.3c0-1.4.4-2.6 1.1-3.7.7-1.1 1.7-1.8 3-2.2v2.9c-.6.3-1 .7-1.3 1.2s-.4 1.1-.4 1.8.2 1.4.5 2 .8 1 1.4 1.3c.6.3 1.3.5 2.2.5s1.5-.2 2.2-.5c.6-.3 1.1-.8 1.4-1.3.3-.6.5-1.2.5-2 0-.7-.2-1.3-.5-1.8s-.8-1-1.3-1.2v-2.9c1.3.4 2.3 1.2 3 2.2.7 1.1 1.1 2.3 1.1 3.7 0 1.2-.3 2.3-.8 3.3s-1.3 1.8-2.3 2.3c-1 .6-2.1.8-3.3.8-1.3.1-2.4-.2-3.4-.8zM674.2 168.2c-1 .6-2.1.9-3.3.9s-2.3-.3-3.3-.9c-1-.6-1.8-1.4-2.3-2.4-.6-1-.8-2.1-.8-3.3s.3-2.3.8-3.3 1.3-1.8 2.3-2.3c1-.6 2.1-.9 3.3-.9s2.4.3 3.3.9c1 .6 1.8 1.4 2.3 2.3.6 1 .8 2.1.8 3.3 0 1.1-.3 2.3-.8 3.3s-1.3 1.9-2.3 2.4zm-1.2-9c-.6-.3-1.3-.5-2.2-.5s-1.6.2-2.2.5c-.6.3-1.1.8-1.4 1.4-.3.6-.5 1.2-.5 2s.2 1.4.5 2 .8 1.1 1.4 1.4c.6.3 1.3.5 2.2.5s1.6-.2 2.2-.5c.6-.3 1.1-.8 1.4-1.4.3-.6.5-1.3.5-2 0-.8-.2-1.4-.5-2-.3-.6-.8-1.1-1.4-1.4zM677.2 139.9v2.5l-8.7 5.7h8.7v2.5h-12.6v-2.5l8.7-5.7h-8.7v-2.5h12.6zM666.6 131.2h3.3V127h2v4.3h3.4v-4.8h2v7.3h-12.6v-7.3h2v4.7h-.1zM667.5 120.3c-1-.5-1.8-1.3-2.3-2.3s-.8-2.1-.8-3.3c0-1.4.4-2.6 1.1-3.7s1.7-1.8 3-2.2v2.9c-.6.3-1 .7-1.3 1.2s-.4 1.1-.4 1.8.2 1.4.5 2 .8 1 1.4 1.3 1.3.5 2.2.5 1.5-.2 2.2-.5c.6-.3 1.1-.8 1.4-1.3.3-.6.5-1.2.5-2 0-.7-.2-1.3-.5-1.8s-.8-1-1.3-1.2v-2.9c1.3.4 2.3 1.2 3 2.2s1.1 2.3 1.1 3.7c0 1.2-.3 2.3-.8 3.3s-1.3 1.8-2.3 2.3c-1 .6-2.1.8-3.3.8-1.3 0-2.4-.3-3.4-.8zM664.6 94.4h2v3.4h10.6v2.5h-10.6v3.4h-2v-9.3zM674.8 81.2v5l2.4.8v2.7l-12.6-4.5v-2.9l12.6-4.5v2.7l-2.4.7zm-2 .7l-5.3 1.8 5.3 1.8v-3.6zM677.2 65.9l-4.9 2.8v1.2h4.9v2.5h-12.6v-4.7c0-1 .2-1.8.5-2.5s.8-1.2 1.4-1.5c.6-.3 1.3-.5 2-.5.8 0 1.6.2 2.3.7.7.5 1.1 1.2 1.4 2.2l5.1-3-.1 2.8zm-6.8 3.9v-2.1c0-.7-.2-1.2-.5-1.5s-.8-.5-1.4-.5-1.1.2-1.4.5c-.3.3-.5.8-.5 1.5v2.1h3.8zM151.6 389.2c-1.1.6-2.4.9-4.1.9h-3.3v7.6h-4v-19.8h7.3c1.5 0 2.8.3 3.9.8s1.9 1.3 2.4 2.2c.5.9.8 2 .8 3.2 0 1-.3 2.1-.8 3-.4.7-1.2 1.5-2.2 2.1zm-1-5.3c0-.9-.3-1.7-.8-2.2s-1.3-.8-2.4-.8h-3.2v5.9h3.2c1.1 0 1.9-.3 2.4-.8.5-.4.8-1.2.8-2.1zM167.2 397.6h-4v-19.8h4v19.8zM188.7 397.6l-4.3-6.7-3.9 6.7H176l6.3-10-6.3-9.8h4.6l4.3 6.6 3.9-6.6h4.5l-6.2 10 6.3 9.9-4.7-.1zM205.9 380.9v5.1h6.7v3.1h-6.7v5.4h7.5v3.2H202v-19.9h11.5v3.1h-7.6zM226.7 394.6h6.5v3h-10.5v-19.8h4v16.8zM242.3 393.1c1.8-1.5 3.3-2.8 4.3-3.8 1.1-1 1.9-2 2.6-3.1.7-1.1 1.1-2.1 1.1-3.1 0-.9-.2-1.7-.7-2.2-.4-.5-1.1-.8-2.1-.8-.9 0-1.7.3-2.2.9s-.8 1.5-.8 2.6h-3.9c.1-2.3.8-4 2-5.2 1.3-1.2 2.9-1.8 4.9-1.8 1.4 0 2.7.3 3.7.8s1.8 1.3 2.3 2.2c.5.9.8 2 .8 3.1 0 1.4-.4 2.8-1.2 4.1-.7 1.3-1.7 2.4-2.7 3.4s-2.4 2.2-4 3.6h8.4v3.3h-14v-3l1.5-1zM280 377.8v19.8h-4v-8.5h-8.5v8.5h-4v-19.8h4v8.2h8.5v-8.2h4zM303.1 377.8v3.1h-5.3v16.7h-4v-16.7h-5.3v-3.1h14.6zM333.3 377.8v19.8h-4v-12.9l-5.3 12.9h-3l-5.3-12.9v12.9h-4v-19.8h4.5l6.3 14.8 6.3-14.8h4.5zM346.9 394.6h6.5v3h-10.5v-19.8h4v16.8z"
-              ></path> */}
               <path
                 fill="#C9784B"
                 d="M473.6 297.3h3.9c19.1-.2 33.3-18.9 29.5-38.8l-4.4-23.2c-2.9-15.5-15.9-26.5-30.7-26.2-16.9.4-30.2 15.3-29.8 33.2l.5 23.3c.5 17.7 14.3 31.9 31 31.7z"
@@ -615,10 +611,10 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#252B2D"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeMiterlimit="50"
                 d="M485.8 247.2h0l3.1 12.6c.8 3.2-1.1 6.5-4.4 7.3l-.7.2h0"
               ></path>
               <path
@@ -632,10 +628,10 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#252B2D"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeMiterlimit="50"
                 d="M469.1 273.9s1 6.9 8.8 7.3"
               ></path>
               <path
@@ -645,10 +641,10 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#252B2D"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeMiterlimit="50"
                 d="M439.2 260.2l7.2 5.9"
               ></path>
               <path
@@ -658,10 +654,6 @@ const SectionThree = () => {
               <g>
                 <path fill="#3D155F" d="M707 25.9l33.6 33.6H707V25.9z"></path>
               </g>
-              {/* <path
-                fill="#CCF381"
-                d="M824.3 381.1c.2-2.6 2.1-4.4 4.4-4.4 2.2 0 3.7 1.8 3.9 4.4h-8.3zm39.2-8.2c-5.8 0-9.9 4.1-9.9 10 0 5.8 4.1 10 9.9 10 5.8 0 9.8-4.2 9.8-10 0-5.9-4-10-9.8-10zm35.5 14.4c-1.2 1.2-2.6 1.9-3.9 1.9-1.7 0-2.9-1.1-2.9-2.6 0-1.8 1.9-3.1 4.6-3.1.8 0 1.5 0 2.2.1v3.7zm-87.9-14.4c-1.9 0-3.9.7-5.6 2.1v-10h-4.9v27.5h4.9v-13.3c1.3-1.3 2.7-2 4.1-2 2 0 3.4 1.5 3.4 3.5v11.8h4.9v-12.7c0-4.1-2.8-6.9-6.8-6.9zm17.8 0c-5.5 0-9.5 4.1-9.5 9.9 0 6 4.1 10.2 9.8 10.2 2.2 0 4.3-.5 6.5-1.5v-4.1c-2 1.1-3.9 1.8-5.7 1.8-3.2 0-5.5-2-5.8-4.9h13c.1-.6.1-1.3.1-1.8.1-5.7-3.3-9.6-8.4-9.6zm10.1 19.6h4.9V365H839v27.5zm7.9 0h4.9V365h-4.9v27.5zm16.6-3.6c-2.9 0-4.9-2.4-4.9-5.9s2-5.9 4.9-5.9c2.8 0 4.8 2.4 4.8 5.9s-2 5.9-4.8 5.9zm17.8-20.9h-4.9v5.4h-3.3v3.9h3.3v9.5c0 3.6 2.6 6.2 6.4 6.2 1.3 0 2.6-.3 4-.8v-4.1c-1 .5-1.9.8-2.7.8-1.7 0-2.8-1.1-2.8-2.7v-8.9h5.5v-3.9h-5.5V368zm14.7 4.9c-2.3 0-4.6.5-6.9 1.6v4.1c2.2-1.2 4.4-1.8 6.4-1.8 2.2 0 3.6 1.2 3.6 3v.9c-.9 0-1.6-.1-2.4-.1-5.5 0-9.2 2.8-9.2 6.7 0 3.4 2.5 5.7 6.1 5.7 1.9 0 3.8-.7 5.5-2v1.5h4.7V380c-.1-4.2-3.2-7.1-7.8-7.1zm20.9 9.9l6.4-9.4h-5.5l-3.8 5.9-3.8-5.9h-5.5l6.4 9.4-6.7 9.7h5.7l4-6.2 4 6.2h5.7l-6.9-9.7z"
-              ></path> */}
               <g>
                 <path
                   fill="#432FC6"
@@ -672,8 +664,8 @@ const SectionThree = () => {
                   d="M273.4 171.5h8m-4-4v8"
                   fill="none"
                   stroke="#FFEB5C"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
+                  strokeWidth="1.5"
+                  strokeMiterlimit="10"
                 ></path>
               </g>
             </Svg>
@@ -724,8 +716,8 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#4831D4"
-                stroke-width="2"
-                stroke-miterlimit="50"
+                strokeWidth="2"
+                strokeMiterlimit="50"
                 d="M438.8 420.9h-36m18 18v-36M239.2 15.7c0 4.4-3.6 7.9-8 7.8-4.3 0-7.8-3.5-7.8-7.8 0-4.4 3.5-7.9 7.9-7.9s7.9 3.5 7.9 7.9h0zm28.1 0c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9h0c0-4.4 3.5-7.9 7.9-7.9 4.3 0 7.8 3.6 7.9 7.9zm28 0c0 4.4-3.6 7.9-8 7.8-4.3 0-7.8-3.5-7.8-7.8 0-4.4 3.5-7.9 7.9-7.9s7.9 3.5 7.9 7.9h0zm28.1 0c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9 3.5-7.9 7.9-7.9 7.9 3.6 7.9 7.9zm28.1 0c0 4.4-3.6 7.9-8 7.8-4.3 0-7.8-3.5-7.8-7.8 0-4.4 3.5-7.9 7.9-7.9s7.9 3.6 7.9 7.9zm332.9 697c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9h0c0-4.4 3.5-7.9 7.9-7.9 4.4.1 7.9 3.6 7.9 7.9zm28.1 0c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9h0c0-4.4 3.5-7.9 7.9-7.9s7.9 3.6 7.9 7.9h0zm28 0c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9h0c0-4.4 3.5-7.9 7.9-7.9 4.4.1 7.9 3.6 7.9 7.9zm28.1 0c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9h0c0-4.4 3.5-7.9 7.9-7.9s7.9 3.6 7.9 7.9h0zm28.1 0c0 4.4-3.5 7.9-7.9 7.9s-7.9-3.5-7.9-7.9h0c0-4.4 3.5-7.9 7.9-7.9 4.3.1 7.9 3.6 7.9 7.9zM717 298.8h0l22.3.6h0l-.6-22.3h0l22.3.6h0l-.6-22.3h0l22.3.6h0l-.6-22.3h0l22.3.6h0l-.6-22.3h0"
               ></path>
               <path
@@ -744,9 +736,9 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFF"
-                stroke-width="1.5"
-                stroke-linecap="square"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="square"
+                strokeMiterlimit="50"
                 d="M601 68.9s-13.5 1.4-26.2 59.2"
               ></path>
               <path
@@ -777,7 +769,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__b)">
+              <g clipPath="url(#olaolu-work-illo_svg__b)">
                 <path
                   fill="#432FC6"
                   d="M460.1 398.6c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16 8.8 15.3 18z"
@@ -795,7 +787,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__d)">
+              <g clipPath="url(#olaolu-work-illo_svg__d)">
                 <path
                   fill="#432FC6"
                   d="M527.2 404c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -813,7 +805,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__f)">
+              <g clipPath="url(#olaolu-work-illo_svg__f)">
                 <path
                   fill="#432FC6"
                   d="M594.4 409.5c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16 8.8 15.3 18z"
@@ -831,7 +823,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__h)">
+              <g clipPath="url(#olaolu-work-illo_svg__h)">
                 <path
                   fill="#432FC6"
                   d="M497.4 354.9c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16.1 8.8 15.3 18z"
@@ -849,7 +841,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__j)">
+              <g clipPath="url(#olaolu-work-illo_svg__j)">
                 <path
                   fill="#432FC6"
                   d="M564.6 360.3c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16 8.8 15.3 18z"
@@ -867,7 +859,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__l)">
+              <g clipPath="url(#olaolu-work-illo_svg__l)">
                 <path
                   fill="#432FC6"
                   d="M631.7 365.8c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -885,7 +877,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__n)">
+              <g clipPath="url(#olaolu-work-illo_svg__n)">
                 <path
                   fill="#432FC6"
                   d="M430.3 349.4c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16 8.8 15.3 18z"
@@ -903,7 +895,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__p)">
+              <g clipPath="url(#olaolu-work-illo_svg__p)">
                 <path
                   fill="#432FC6"
                   d="M489.7 447.7c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -921,7 +913,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__r)">
+              <g clipPath="url(#olaolu-work-illo_svg__r)">
                 <path
                   fill="#432FC6"
                   d="M556.9 453.2c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16 8.8 15.3 18z"
@@ -939,7 +931,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__t)">
+              <g clipPath="url(#olaolu-work-illo_svg__t)">
                 <path
                   fill="#432FC6"
                   d="M624 458.6c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -957,7 +949,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__v)">
+              <g clipPath="url(#olaolu-work-illo_svg__v)">
                 <path
                   fill="#432FC6"
                   d="M422.5 442.2c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.3.8 16.1 8.8 15.3 18z"
@@ -975,7 +967,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__x)">
+              <g clipPath="url(#olaolu-work-illo_svg__x)">
                 <path
                   fill="#432FC6"
                   d="M475.4 212.9c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16 8.8 15.3 18z"
@@ -993,7 +985,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__z)">
+              <g clipPath="url(#olaolu-work-illo_svg__z)">
                 <path
                   fill="#432FC6"
                   d="M542.6 218.4c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16 8.8 15.3 18z"
@@ -1011,7 +1003,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__B)">
+              <g clipPath="url(#olaolu-work-illo_svg__B)">
                 <path
                   fill="#432FC6"
                   d="M609.7 223.8c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -1029,7 +1021,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__D)">
+              <g clipPath="url(#olaolu-work-illo_svg__D)">
                 <path
                   fill="#432FC6"
                   d="M408.2 207.4c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3 16.1 8.9 15.3 18z"
@@ -1047,7 +1039,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__F)">
+              <g clipPath="url(#olaolu-work-illo_svg__F)">
                 <path
                   fill="#432FC6"
                   d="M505 262c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18c.7-9.2 8.8-16 18-15.3s16.1 8.9 15.3 18z"
@@ -1065,7 +1057,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__H)">
+              <g clipPath="url(#olaolu-work-illo_svg__H)">
                 <path
                   fill="#432FC6"
                   d="M572.2 267.5c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18c.7-9.2 8.8-16 18-15.3 9.2.8 16 8.8 15.3 18z"
@@ -1083,7 +1075,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__J)">
+              <g clipPath="url(#olaolu-work-illo_svg__J)">
                 <path
                   fill="#432FC6"
                   d="M437.9 256.6c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18c.7-9.2 8.8-16 18-15.3 9.2.7 16 8.8 15.3 18z"
@@ -1101,7 +1093,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__L)">
+              <g clipPath="url(#olaolu-work-illo_svg__L)">
                 <path
                   fill="#432FC6"
                   d="M512.8 169.2c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -1119,7 +1111,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__N)">
+              <g clipPath="url(#olaolu-work-illo_svg__N)">
                 <path
                   fill="#432FC6"
                   d="M580 174.7c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3 16 8.8 15.3 18z"
@@ -1137,7 +1129,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__P)">
+              <g clipPath="url(#olaolu-work-illo_svg__P)">
                 <path
                   fill="#432FC6"
                   d="M445.7 163.8c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16 8.8 15.3 18z"
@@ -1155,7 +1147,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__R)">
+              <g clipPath="url(#olaolu-work-illo_svg__R)">
                 <path
                   fill="#432FC6"
                   d="M534.9 311.2c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.8 16.1 8.8 15.3 18z"
@@ -1173,7 +1165,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__T)">
+              <g clipPath="url(#olaolu-work-illo_svg__T)">
                 <path
                   fill="#432FC6"
                   d="M602.1 316.7c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16 8.8 15.3 18z"
@@ -1191,7 +1183,7 @@ const SectionThree = () => {
                   overflow="visible"
                 ></use>
               </clipPath>
-              <g clip-path="url(#olaolu-work-illo_svg__V)">
+              <g clipPath="url(#olaolu-work-illo_svg__V)">
                 <path
                   fill="#432FC6"
                   d="M400.6 300.3c-.7 9.2-8.8 16-18 15.3s-16-8.8-15.3-18 8.8-16 18-15.3c9.2.7 16.1 8.8 15.3 18z"
@@ -1204,9 +1196,9 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFF"
-                stroke-width="1.5"
-                stroke-linecap="square"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="square"
+                strokeMiterlimit="50"
                 d="M646.1 481h0l-12.7-1.3h0l4.2-16h0m-178.9-54.1l11.4-2.9"
               ></path>
               <path
@@ -1216,9 +1208,9 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFF"
-                stroke-width="1.5"
-                stroke-linecap="square"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="square"
+                strokeMiterlimit="50"
                 d="M677.9 322.8h0l1.8 14.7h0l-18.9-.3h0m-201 24.5h0l10.3 45.2h0l74.1-21.4h0l10.4 32h0l24.1-23.6h0l65.8-8.7h0s19-3 28.4 3"
               ></path>
               <path
@@ -1240,8 +1232,8 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFEB5C"
-                stroke-width="2"
-                stroke-miterlimit="50"
+                strokeWidth="2"
+                strokeMiterlimit="50"
                 d="M965.4 344.4h14.8m-7.4-7.4v14.8M312.6 510.9h16.1m-8.1-8.1v16.1M107.5 444h15.2m-7.6-7.6v15.2m257.8-121h17.7m-8.9-8.8v17.7m333.7-133.3h12M721.4 200.2v12M848 189.6h10.5M853.3 184.4v10.5"
               ></path>
               <path fill="#432FC6" d="M930 639.3h-85.8v-70.5H930v70.5z"></path>
@@ -1249,8 +1241,8 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFEB5C"
-                stroke-width="2"
-                stroke-miterlimit="50"
+                strokeWidth="2"
+                strokeMiterlimit="50"
                 d="M879.1 604.1h16M887.1 596.1v16"
               ></path>
               <path
@@ -1260,8 +1252,8 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFEB5C"
-                stroke-width="2"
-                stroke-miterlimit="50"
+                strokeWidth="2"
+                strokeMiterlimit="50"
                 d="M405.1 133l14.9 14.9M420 133l-14.9 14.9"
               ></path>
               <path
@@ -1271,9 +1263,9 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#FFF"
-                stroke-width="1.5"
-                stroke-linecap="square"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="square"
+                strokeMiterlimit="50"
                 d="M575.8 381.5s18.5-4.9 30.3 7.7"
               ></path>
               <path
@@ -1283,10 +1275,10 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#252B2D"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeMiterlimit="50"
                 d="M485.8 247.2h0l3.1 12.6c.8 3.2-1.1 6.5-4.4 7.3l-.7.2h0"
               ></path>
               <path
@@ -1300,10 +1292,10 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#252B2D"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeMiterlimit="50"
                 d="M469.1 273.9s1 6.9 8.8 7.3"
               ></path>
               <path
@@ -1313,10 +1305,10 @@ const SectionThree = () => {
               <path
                 fill="none"
                 stroke="#252B2D"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-miterlimit="50"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeMiterlimit="50"
                 d="M439.2 260.2l7.2 5.9"
               ></path>
               <path
@@ -1336,8 +1328,8 @@ const SectionThree = () => {
                   d="M273.4 171.5h8m-4-4v8"
                   fill="none"
                   stroke="#FFEB5C"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
+                  strokeWidth="1.5"
+                  strokeMiterlimit="10"
                 ></path>
               </g>
             </Svg>
@@ -1364,7 +1356,7 @@ const ResponsiveWrapper = styled.div`
   flex-direction: column;
   width: 100%;
   margin-top: 5em;
-  padding: 0 7rem;
+  padding: 0 15vw;
   font-size: 0.8rem;
 `;
 
