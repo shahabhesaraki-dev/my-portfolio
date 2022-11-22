@@ -182,7 +182,8 @@ const ResponsiveWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 5em;
-  padding: 0 7rem;
+  padding: 0 0rem;
+  max-width: 100%;
   font-size: 0.8rem;
 `;
 
