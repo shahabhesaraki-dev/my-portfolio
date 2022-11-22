@@ -237,14 +237,14 @@ const SecondSvg = styled.svg`
   max-width: 200%;
 `;
 
-const SecondSvgTwo = styled.svg`
-  top: -25%;
-  width: 40em;
-  z-index: -1;
-  height: 126%;
-  right: -10.4em;
-  position: absolute;
-`;
+// const SecondSvgTwo = styled.svg`
+//   top: -25%;
+//   width: 40em;
+//   z-index: -1;
+//   height: 126%;
+//   right: -10.4em;
+//   position: absolute;
+// `;
 
 const Span = styled.span`
   width: inherit;
