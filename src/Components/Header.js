@@ -97,14 +97,14 @@ const Button = styled.button`
   &::after {
     content: "";
     width: 100%;
-    top: 1.13em;
+    top: 1.1em;
     height: 2px;
     position: absolute;
     transition: 0.4s ease;
     transform: rotate(0deg);
     background-color: currentColor;
     transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
-    margin-top: ${({ open }) => (open ? "-15px" : "0px")};
+    margin-top: ${({ open }) => (open ? "-13px" : "0px")};
     color: ${({ open }) => (open ? "#4831d4;" : "currentColor")};
   }
 
