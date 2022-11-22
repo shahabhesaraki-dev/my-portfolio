@@ -1,18 +1,51 @@
 import styled from "styled-components";
+import HTML from "./img/html-256.png";
+import CSS from "./img/css-256.png";
+import JS from "./img/javascript-256.png";
+import BOOTSTRAP from "./img/bootstrap-256.png";
+import REACT from "./img/react-256.png";
+import TYPESCRIPT from "./img/typescript-256.png";
+import PHP from "./img/php-256.png";
+import LARAVEL from "./img/laravel-256.png";
+import NODE from "./img/node-256.png";
+import GIT from "./img/git-256.png";
+import GITHUB from "./img/github-256.png";
+import MYSQL from "./img/mysql-256.png";
+import MONGODB from "./img/mongodb-256.png";
+
 const SectionTwo = () => {
   return (
     <>
       <Wrapper>
         <FirstSection>
           <FirstContent>
-            <Title>FrontEnd</Title>
-            <Paragraph>
-              I'm probably not the typical designer positioned behind an
-              Illustrator artboard adjusting pixels, but I design. Immersed in
-              stylesheets tweaking font sizes and contemplating layouts is where
-              you'll find me (~_^). I'm committed to creating fluent user
-              experiences while staying fashionable.
-            </Paragraph>
+            <Title>Front-End</Title>
+            <Ul>
+              <Li>
+                <Image src={HTML} />
+                <SkillsName>HTML</SkillsName>
+              </Li>
+              <Li>
+                <Image src={CSS} />
+                <SkillsName>CSS</SkillsName>
+              </Li>
+              <Li>
+                <Image src={JS} />
+                <SkillsName>JavaScript</SkillsName>
+              </Li>
+              <Li>
+                <Image src={TYPESCRIPT} />
+                <SkillsName>TypeScript</SkillsName>
+              </Li>
+              <Li>
+                <Image src={REACT} />
+                <SkillsName>React</SkillsName>
+              </Li>
+              <Li>
+                <Image src={BOOTSTRAP} />
+                <SkillsName>Bootstrap</SkillsName>
+              </Li>
+            </Ul>
           </FirstContent>
 
           <FirstSvg
@@ -39,13 +72,51 @@ const SectionTwo = () => {
         </FirstSection>
         <SecondSection>
           <SecondContent>
-            <Title>BackEnd</Title>
-            <Paragraph>
-              In building JavaScript applications, I'm equipped with just the
-              right tools, and can absolutely function independently of them to
-              deliver fast, resilient solutions optimized for scale —
-              performance and scalabilty are priorities on my radar.
-            </Paragraph>
+            <Title>Back-End / Tools</Title>
+            <Ul>
+              <Li>
+                <Image style={{ width: "55px", marginTop: "8px" }} src={NODE} />
+                <SkillsName style={{ marginTop: "6px" }}>Node</SkillsName>
+              </Li>
+              <Li>
+                <Image style={{ width: "55px", marginTop: "-3px" }} src={PHP} />
+                <SkillsName style={{ width: "55px", marginTop: "-3px" }}>
+                  PHP
+                </SkillsName>
+              </Li>
+              <Li>
+                <Image
+                  style={{ width: "70px", marginTop: "-10px" }}
+                  src={LARAVEL}
+                />
+                <SkillsName style={{ marginTop: "-12px" }}>Laravel</SkillsName>
+              </Li>
+              <Li>
+                <Image
+                  style={{ width: "80px", marginTop: "-13px" }}
+                  src={MONGODB}
+                />
+                <SkillsName style={{ marginTop: "-18px" }}>MongoDB</SkillsName>
+              </Li>
+              <Li>
+                <Image
+                  style={{ width: "65px", marginTop: "-15px" }}
+                  src={MYSQL}
+                />
+                <SkillsName style={{ marginTop: "-1px" }}>MySql</SkillsName>
+              </Li>
+              <Li>
+                <Image style={{ width: "65px", marginTop: "-5px" }} src={GIT} />
+                <SkillsName style={{ marginTop: "-8px" }}>GIT</SkillsName>
+              </Li>
+              <Li>
+                <Image
+                  style={{ width: "65px", marginTop: "-5px" }}
+                  src={GITHUB}
+                />
+                <SkillsName style={{ marginTop: "-8px" }}>Github</SkillsName>
+              </Li>
+            </Ul>
           </SecondContent>
 
           <SecondSvg
@@ -70,28 +141,116 @@ const SectionTwo = () => {
 
       <ResponsiveWrapper>
         <ResponsiveFirstContent>
-          <Title>FrontEnd</Title>
-          <ResponsiveParagraph>
-            I'm probably not the typical designer positioned behind an
-            Illustrator artboard adjusting pixels, but I design. Immersed in
-            stylesheets tweaking font sizes and contemplating layouts is where
-            you'll find me (~_^). I'm committed to creating fluent user
-            experiences while staying fashionable.
-          </ResponsiveParagraph>
+          <Title>Front-End</Title>
+          <Ul>
+            <Li>
+              <Image src={HTML} />
+              <SkillsName>HTML</SkillsName>
+            </Li>
+            <Li>
+              <Image src={CSS} />
+              <SkillsName>CSS</SkillsName>
+            </Li>
+            <Li>
+              <Image src={JS} />
+              <SkillsName>JavaScript</SkillsName>
+            </Li>
+            <Li>
+              <Image src={TYPESCRIPT} />
+              <SkillsName>TypeScript</SkillsName>
+            </Li>
+            <Li>
+              <Image src={REACT} />
+              <SkillsName>React</SkillsName>
+            </Li>
+            <Li>
+              <Image src={BOOTSTRAP} />
+              <SkillsName>Bootstrap</SkillsName>
+            </Li>
+          </Ul>
         </ResponsiveFirstContent>
         <ResponsiveSecondContent>
-          <Title>BackEnd</Title>
-          <ResponsiveParagraph>
-            In building JavaScript applications, I'm equipped with just the
-            right tools, and can absolutely function independently of them to
-            deliver fast, resilient solutions optimized for scale — performance
-            and scalabilty are priorities on my radar.
-          </ResponsiveParagraph>
+          <Title>Back-End / Tools</Title>
+          <Ul>
+            <Li>
+              <Image style={{ width: "55px", marginTop: "8px" }} src={NODE} />
+              <SkillsName style={{ marginTop: "6px" }}>Node</SkillsName>
+            </Li>
+            <Li>
+              <Image style={{ width: "55px", marginTop: "-3px" }} src={PHP} />
+              <SkillsName style={{ width: "55px", marginTop: "-3px" }}>
+                PHP
+              </SkillsName>
+            </Li>
+            <Li>
+              <Image
+                style={{ width: "70px", marginTop: "-10px" }}
+                src={LARAVEL}
+              />
+              <SkillsName style={{ marginTop: "-12px" }}>Laravel</SkillsName>
+            </Li>
+            <Li>
+              <Image
+                style={{ width: "80px", marginTop: "-13px" }}
+                src={MONGODB}
+              />
+              <SkillsName style={{ marginTop: "-18px" }}>MongoDB</SkillsName>
+            </Li>
+            <Li>
+              <Image
+                style={{ width: "65px", marginTop: "-15px" }}
+                src={MYSQL}
+              />
+              <SkillsName style={{ marginTop: "-1px" }}>MySql</SkillsName>
+            </Li>
+            <Li>
+              <Image style={{ width: "65px", marginTop: "-5px" }} src={GIT} />
+              <SkillsName style={{ marginTop: "-8px" }}>GIT</SkillsName>
+            </Li>
+            <Li>
+              <Image
+                style={{ width: "65px", marginTop: "-5px" }}
+                src={GITHUB}
+              />
+              <SkillsName style={{ marginTop: "-8px" }}>Github</SkillsName>
+            </Li>
+          </Ul>
         </ResponsiveSecondContent>
       </ResponsiveWrapper>
     </>
   );
 };
+
+const SkillsName = styled.p`
+  font-family: Abel;
+  font-size: 15px;
+  font-weight: bold;
+`;
+
+const Ul = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto 60px auto;
+  padding: 20px 0;
+`;
+
+const Li = styled.li`
+  list-style: none;
+  width: 80px;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 1.8rem;
+`;
+
+const Image = styled.img`
+  width: 40px;
+  margin-bottom: 5px;
+`;
 
 const ResponsiveWrapper = styled.div`
   @media (min-width: 1000px) {
@@ -102,25 +261,12 @@ const ResponsiveWrapper = styled.div`
   width: 100%;
 `;
 
-const ResponsiveParagraph = styled.p`
-  font-family: Abel;
-  width: 80vw;
-  color: #3d155f;
-  line-height: 1.6;
-  margin-top: 20px;
-  font-weight: 600;
-  @media (min-width: 701px) {
-    max-width: 701px;
-    font-size: 1.07em;
-  }
-`;
-
 const ResponsiveFirstContent = styled.article`
-  padding: 5rem 3rem;
+  padding: 2rem 3rem;
 `;
 
 const ResponsiveSecondContent = styled.article`
-  padding: 3rem 3rem;
+  padding: 0 3rem;
 `;
 
 const Wrapper = styled.div`
@@ -128,7 +274,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   width: 100%;
   @media (min-width: 701px) {
-    padding: 8rem 10rem;
+    padding: 3rem 10rem;
   }
 
   @media (min-width: 1000px) and (max-width: 1500px) {
@@ -164,7 +310,6 @@ const SecondSection = styled.article`
   display: flex;
   justify-content: flex-end;
   position: relative;
-  margin-top: 50px;
 `;
 
 const SecondContent = styled.div`
@@ -184,25 +329,12 @@ const SecondSvg = styled.svg`
 const Title = styled.h1`
   font-family: Acme;
   @media (min-width: 701px) {
-    max-width: 30vw;
+    max-width: 40vw;
   }
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 900;
   line-height: 1.1;
   color: #4831d4;
-`;
-
-const Paragraph = styled.p`
-  font-family: Abel;
-  width: 32vw;
-  color: #3d155f;
-  line-height: 1.6;
-  margin-top: 20px;
-  font-weight: 600;
-  @media (min-width: 701px) {
-    max-width: 701px;
-    font-size: 1.07em;
-  }
 `;
 
 export default SectionTwo;
