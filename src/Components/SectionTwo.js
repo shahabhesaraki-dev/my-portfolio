@@ -111,10 +111,10 @@ const SectionTwo = () => {
               </Li>
               <Li>
                 <Image
-                  style={{ width: "65px", marginTop: "-5px" }}
+                  style={{ width: "30px", marginTop: "12px" }}
                   src={GITHUB}
                 />
-                <SkillsName style={{ marginTop: "-8px" }}>Github</SkillsName>
+                <SkillsName style={{ marginTop: "10px" }}>Github</SkillsName>
               </Li>
             </Ul>
           </SecondContent>
@@ -209,10 +209,10 @@ const SectionTwo = () => {
             </Li>
             <Li>
               <Image
-                style={{ width: "65px", marginTop: "-5px" }}
+                style={{ width: "30px", marginTop: "12px" }}
                 src={GITHUB}
               />
-              <SkillsName style={{ marginTop: "-8px" }}>Github</SkillsName>
+              <SkillsName style={{ marginTop: "10px" }}>Github</SkillsName>
             </Li>
           </Ul>
         </ResponsiveSecondContent>
