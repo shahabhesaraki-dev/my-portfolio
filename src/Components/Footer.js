@@ -59,8 +59,8 @@ const MainDiv = styled.div`
 const Wrapper = styled.div`
   width: 100%;
   display: flex;
-  padding-top: 8rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   flex-direction: column;
   @media (min-width: 701px) {
     padding: 2rem 10rem;
