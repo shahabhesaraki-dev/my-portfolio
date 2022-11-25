@@ -49,6 +49,7 @@ const Header = () => {
 const Link = styled.a`
   cursor: pointer;
   text-decoration: none;
+  color: #4831d4;
 `;
 
 const Nav = styled.nav`
