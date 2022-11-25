@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Resume from "./File/SHAHAB HESARAKI - Resume.pdf";
 
 const Footer = () => {
   return (
@@ -10,10 +11,18 @@ const Footer = () => {
               <Li>Shahabhes@gmail.com</Li>
               <Li>+1 (438) 883-9936</Li>
               <Li>
-                <Link href="https://github.com/shahabhesaraki-dev">Github</Link>
+                <Link
+                  href="https://github.com/shahabhesaraki-dev"
+                  target="_blank"
+                >
+                  Github
+                </Link>
               </Li>
               <Li>
-                <Link href="https://www.linkedin.com/in/shahab-hesaraki-80132317a">
+                <Link
+                  href="https://www.linkedin.com/in/shahab-hesaraki-80132317a"
+                  target="_blank"
+                >
                   Linkedin
                 </Link>
               </Li>
@@ -21,13 +30,13 @@ const Footer = () => {
           </LinksDiv>
           <NavUl>
             <Li>
-              <Link>My Work</Link>
+              <Link href="#myWork">My Work</Link>
             </Li>
             <Li>
-              <Link>My Resume</Link>
+              <Link href={Resume}>My Resume</Link>
             </Li>
             <Li>
-              <Link>About Me</Link>
+              <Link href="#aboutMe">About Me</Link>
             </Li>
           </NavUl>
         </InnerDiv>
