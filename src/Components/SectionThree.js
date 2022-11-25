@@ -3,41 +3,38 @@ const SectionThree = () => {
   return (
     <>
       <MainSection>
-        <Wrapper>
+        <Wrapper id="aboutMe">
           <Article>
             <ContentDiv>
-              <Title>
-                Over the
-                <br />
-                past 5 years
-              </Title>
+              <Title>About me</Title>
+              <br />
               <Paragraph>
-                I've built products for companies and businesses around the
-                globe ranging from marketing websites to complex solutions and
-                enterprise apps with focus on fast, elegant and accessible user
-                experiences.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
               </Paragraph>
               <Paragraph>
-                Currently, I work at Shopify as a Senior UX Developer and
-                Accessibility advocate crafting thoughtful and inclusive
-                experiences that adhere to web standards for over a million
-                merchants across the world.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
               </Paragraph>
               <Paragraph>
-                Before now, I was Principal Frontend Engineer at hellotax, where
-                I worked on a suite of tools and services tailored at providing
-                fast, automated VAT Registration / filings & Returns solutions
-                for multi-channel sellers across Europe.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
               </Paragraph>
               <Paragraph>
-                Prior to hellotax, I was Senior frontend engineering contractor
-                with Pixel2HTML, building JavaScript applications and interfaces
-                for orgs and individuals.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
               </Paragraph>
               <Paragraph>
-                I once also led the frontend team at a Russian startup, Conectar
-                through building multiple React applications into a single
-                robust learning platform.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
               </Paragraph>
             </ContentDiv>
           </Article>
@@ -671,37 +668,38 @@ const SectionThree = () => {
             </Svg>
           </Figure>
         </Wrapper>
-        <ResponsiveWrapper>
+        <ResponsiveWrapper id="aboutMe">
           <Article>
             <ContentDiv>
-              <Title>Over the past 5 years</Title>
+              <Title>About me</Title>
+              <br />
               <Paragraph>
-                I've built products for companies and businesses around the
-                globe ranging from marketing websites to complex solutions and
-                enterprise apps with focus on fast, elegant and accessible user
-                experiences.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
               </Paragraph>
               <Paragraph>
-                Currently, I work at Shopify as a Senior UX Developer and
-                Accessibility advocate crafting thoughtful and inclusive
-                experiences that adhere to web standards for over a million
-                merchants across the world.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
               </Paragraph>
               <Paragraph>
-                Before now, I was Principal Frontend Engineer at hellotax, where
-                I worked on a suite of tools and services tailored at providing
-                fast, automated VAT Registration / filings & Returns solutions
-                for multi-channel sellers across Europe.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
               </Paragraph>
               <Paragraph>
-                Prior to hellotax, I was Senior frontend engineering contractor
-                with Pixel2HTML, building JavaScript applications and interfaces
-                for orgs and individuals.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
               </Paragraph>
               <Paragraph>
-                I once also led the frontend team at a Russian startup, Conectar
-                through building multiple React applications into a single
-                robust learning platform.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
               </Paragraph>
             </ContentDiv>
           </Article>

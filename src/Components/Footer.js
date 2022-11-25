@@ -96,6 +96,9 @@ const LinkUl = styled.ul`
 const Li = styled.li`
   list-style-type: none;
   font-family: Abel;
+  @media (max-width: 480px) {
+    font-size: 16px;
+  }
 `;
 
 const NavUl = styled.ul`

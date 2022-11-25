@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SectionFour = () => {
   return (
-    <MainSection>
+    <MainSection id="myWork">
       <Wrapper>
         <SubDiv>
           <AllDives>

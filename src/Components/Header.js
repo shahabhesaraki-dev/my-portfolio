@@ -18,13 +18,13 @@ const Header = () => {
       <Nav open={open}>
         <Ul>
           <Li>
-            <Link>My Work</Link>
+            <Link href="#myWork">My Work</Link>
           </Li>
           <Li>
             <Link>My Resume</Link>
           </Li>
           <Li>
-            <Link>About Me</Link>
+            <Link href="#aboutMe">About Me</Link>
           </Li>
         </Ul>
       </Nav>
@@ -34,6 +34,7 @@ const Header = () => {
 
 const Link = styled.a`
   cursor: pointer;
+  text-decoration: none;
 `;
 
 const Nav = styled.nav`
