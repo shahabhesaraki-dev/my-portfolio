@@ -2,8 +2,8 @@ import styled from "styled-components";
 const SectionThree = () => {
   return (
     <>
-      <MainSection>
-        <Wrapper id="aboutMe">
+      <MainSection id="aboutMe">
+        <Wrapper>
           <Article>
             <ContentDiv>
               <Title>About me</Title>
@@ -668,7 +668,7 @@ const SectionThree = () => {
             </Svg>
           </Figure>
         </Wrapper>
-        <ResponsiveWrapper id="aboutMe">
+        <ResponsiveWrapper>
           <Article>
             <ContentDiv>
               <Title>About me</Title>
@@ -1367,7 +1367,7 @@ const Wrapper = styled.div`
   width: 100%;
   @media (min-width: 701px) {
     padding: 0 10rem;
-    margin-top: 5.5vh;
+    margin-top: 1.5vh;
     align-items: center;
   }
   @media (min-width: 701px) and (max-width: 1500px) {

@@ -18,13 +18,27 @@ const Header = () => {
       <Nav open={open}>
         <Ul>
           <Li>
-            <Link href="#myWork">My Work</Link>
+            <Link
+              onClick={() => {
+                open !== false ? setOpen(!open) : setOpen(open);
+              }}
+              href="#myWork"
+            >
+              My Work
+            </Link>
           </Li>
           <Li>
             <Link>My Resume</Link>
           </Li>
           <Li>
-            <Link href="#aboutMe">About Me</Link>
+            <Link
+              onClick={() => {
+                open !== false ? setOpen(!open) : setOpen(open);
+              }}
+              href="#aboutMe"
+            >
+              About Me
+            </Link>
           </Li>
         </Ul>
       </Nav>
@@ -111,12 +125,6 @@ const Button = styled.button`
 
   @media (min-width: 581px) {
     display: none;
-  }
-
-  :first-child {
-  }
-
-  :nth-child(2) {
   }
 `;
 
