@@ -1,6 +1,8 @@
 import { useState } from "react";
 import styled from "styled-components";
 import logo from "./img/myLogo.png";
+import Resume from "./File/SHAHAB HESARAKI - Resume.pdf";
+
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -28,7 +30,14 @@ const Header = () => {
             </Link>
           </Li>
           <Li>
-            <Link>My Resume</Link>
+            <Link
+              onClick={() => {
+                open !== false ? setOpen(!open) : setOpen(open);
+              }}
+              href={Resume}
+            >
+              My Resume
+            </Link>
           </Li>
           <Li>
             <Link
