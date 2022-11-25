@@ -1353,7 +1353,7 @@ const ResponsiveWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 5em;
+  margin-top: 2em;
   padding: 0 15vw;
   font-size: 0.8rem;
 `;
@@ -1437,7 +1437,7 @@ const Svg = styled.svg`
   max-width: inherit;
 
   @media (max-width: 1000px) {
-    height: 50vh;
+    height: 40vh;
     min-height: 300px;
     margin-top: 20px;
   }
