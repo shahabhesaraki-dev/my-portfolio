@@ -262,11 +262,11 @@ const ResponsiveWrapper = styled.div`
 `;
 
 const ResponsiveFirstContent = styled.article`
-  padding: 2rem 3rem;
+  padding: 2rem 1rem;
 `;
 
 const ResponsiveSecondContent = styled.article`
-  padding: 0 3rem;
+  padding: 0 1rem;
 `;
 
 const Wrapper = styled.div`
