@@ -133,7 +133,7 @@ const SectionFour = () => {
               </Article>
               <Button>
                 <DivButton>
-                  <P>See my works</P>
+                  <P>See my certificates</P>
                   <SvgButton
                     width="72"
                     height="22"
