@@ -121,15 +121,15 @@ const Ul = styled.ul`
 
 const Li = styled.li`
   margin-bottom: 1.2em;
-  border-radius: 10px;
+  border-radius: 0.2rem;
   background-color: white !important;
   box-shadow: 0px 8px 6px -6px rgb(235, 234, 242, 58%);
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   transition-property: transform, box-shadow;
   list-style-type: none;
+  width: 410px;
   @media (min-width: 940px) {
     flex-basis: calc((100% - 2em) / 3);
-    width: 410px;
   }
 
   @media (min-width: 661px) and (max-width: 940px) {
@@ -139,6 +139,10 @@ const Li = styled.li`
   &:hover {
     transform: translate(0, -10px);
     box-shadow: 0px 8px 6px -6px rgb(235, 234, 242, 58%);
+  }
+
+  @media (max-width: 581px) {
+    width: 300px;
   }
 `;
 
@@ -184,7 +188,7 @@ const Skills = styled.p`
   margin-top: 8px;
   color: black;
   width: 100%;
-  line-height: 1.3;
+  line-height: 1.4;
 `;
 
 export default Certificate;
