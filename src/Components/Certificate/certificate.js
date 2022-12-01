@@ -120,13 +120,9 @@ const Ul = styled.ul`
 `;
 
 const Li = styled.li`
-  flex-grow: 0;
-  flex-shrink: 1;
-  overflow: hidden;
-  position: relative;
   margin-bottom: 1.2em;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: white !important;
   box-shadow: 0px 8px 6px -6px rgb(235, 234, 242, 58%);
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   transition-property: transform, box-shadow;
@@ -154,6 +150,7 @@ const Figure = styled.figure`
   transition: filter 0.3s;
   justify-content: center;
   background: rgba(245, 244, 252, 0.62);
+  background-color: white;
 `;
 
 const LogoImage = styled.img`
