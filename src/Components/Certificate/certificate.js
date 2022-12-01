@@ -39,9 +39,9 @@ const Certificate = () => {
                   />
                 </Figure>
                 <Detail>
-                  <H2>Back-End development</H2>
+                  <H2>Full-Stack web development</H2>
                   <H3>Main skills:</H3>
-                  <Skills>PHP, Laravel</Skills>
+                  <Skills>HTML, CSS, JavaScript, PHP, Laravel, MySQL</Skills>
                 </Detail>
               </Li>
             </Link>
@@ -85,7 +85,7 @@ const MainDiv = styled.div`
 const MainSection = styled.div`
   display: block;
   margin-top: 200px;
-  padding: 0 3.5rem;
+  padding: 0 4.5rem;
   @media (min-width: 651px) {
     font-size: 0.9rem;
   }
@@ -115,7 +115,8 @@ const Section = styled.div``;
 const Ul = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 100%;
 `;
 
 const Li = styled.li`
@@ -132,9 +133,10 @@ const Li = styled.li`
   list-style-type: none;
   @media (min-width: 940px) {
     flex-basis: calc((100% - 2em) / 3);
+    width: 410px;
   }
 
-  @media (min-width: 661px) and (max-width: 939px) {
+  @media (min-width: 661px) and (max-width: 940px) {
     flex-basis: calc((100% - 1em) / 2);
   }
 
@@ -184,6 +186,8 @@ const Skills = styled.p`
   text-align: center;
   margin-top: 8px;
   color: black;
+  width: 100%;
+  line-height: 1.3;
 `;
 
 export default Certificate;
