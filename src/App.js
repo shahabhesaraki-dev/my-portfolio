@@ -1,22 +1,18 @@
-import SectionOne from "./Components/SectionOne";
 import GlobalStyles from "./GlobalStyles";
-import Header from "./Components/Header";
-import SectionTwo from "./Components/SectionTwo";
-import SectionThree from "./Components/SectionThree";
-import SectionFour from "./Components/SectionFour";
-import SectionFive from "./Components/SectionFive";
-import Footer from "./Components/Footer";
+import Home from "./Components/HomePage/home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Certificate from "./Components/Certificate/certificate";
+
 function App() {
   return (
     <>
-      <GlobalStyles />
-      <Header />
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
-      <SectionFour />
-      <SectionFive />
-      <Footer />
+      <BrowserRouter>
+        <GlobalStyles />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/certificate" element={<Certificate />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

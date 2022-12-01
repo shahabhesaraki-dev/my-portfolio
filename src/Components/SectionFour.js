@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const SectionFour = () => {
+  const navigate = useNavigate();
   return (
     <MainSection id="myWork">
       <Wrapper>
@@ -52,7 +54,11 @@ const SectionFour = () => {
                   </Paragraph>
                 </ContentDiv>
               </Article>
-              <Button>
+              <Button
+                onClick={() => {
+                  navigate("/certificate");
+                }}
+              >
                 <DivButton>
                   <P>See my certificates</P>
                   <SvgButton
@@ -131,7 +137,11 @@ const SectionFour = () => {
                   </Paragraph>
                 </ContentDiv>
               </Article>
-              <Button>
+              <Button
+                onClick={() => {
+                  navigate("/certificate");
+                }}
+              >
                 <DivButton>
                   <P>See my certificates</P>
                   <SvgButton
