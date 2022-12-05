@@ -138,11 +138,11 @@ const SectionFour = () => {
                 </ContentDiv>
               </Article>
               <Button
-                // href="/certificate"
-                onClick={() => {
-                  navigate("/certificate");
-                  setTimeout(window.scrollTo(0, 0), 100);
-                }}
+                href="/certificate"
+                // onClick={() => {
+                //   navigate("/certificate");
+                //   setTimeout(window.scrollTo(0, 0), 100);
+                // }}
               >
                 <DivButton>
                   <P>See my certificates</P>
