@@ -75,7 +75,7 @@ const SectionTwo = () => {
             <Title>Back-End/ Tools</Title>
             <Ul>
               <Li>
-                <BiggerImage src={NODE} />
+                <LittleBigger src={NODE} />
                 <SkillsName style={{ marginTop: "6px" }}>Node</SkillsName>
               </Li>
               <Li>
@@ -85,15 +85,15 @@ const SectionTwo = () => {
                 </SkillsName>
               </Li>
               <Li>
-                <BiggerImage style={{ marginTop: "-17px" }} src={LARAVEL} />
+                <SoBiggerImage src={LARAVEL} />
                 <SkillsName style={{ marginTop: "-12px" }}>Laravel</SkillsName>
               </Li>
               <Li>
-                <BiggerImage style={{ marginTop: "-20px" }} src={MONGODB} />
-                <SkillsName style={{ marginTop: "-18px" }}>MongoDB</SkillsName>
+                <SoBiggerImage src={MONGODB} />
+                <SkillsName style={{ marginTop: "-16px" }}>MongoDB</SkillsName>
               </Li>
               <Li>
-                <BiggerImage style={{ marginTop: "-22px" }} src={MYSQL} />
+                <BiggerImage style={{ marginTop: "-25px" }} src={MYSQL} />
                 <SkillsName style={{ marginTop: "-1px" }}>MySql</SkillsName>
               </Li>
               <Li>
@@ -101,7 +101,7 @@ const SectionTwo = () => {
                 <SkillsName style={{ marginTop: "-8px" }}>GIT</SkillsName>
               </Li>
               <Li>
-                <Image src={GITHUB} />
+                <SmallerImage src={GITHUB} />
                 <SkillsName style={{ marginTop: "10px" }}>Github</SkillsName>
               </Li>
             </Ul>
@@ -161,7 +161,7 @@ const SectionTwo = () => {
           <Title>Back-End/Tools</Title>
           <Ul>
             <Li>
-              <BiggerImage src={NODE} />
+              <LittleBigger src={NODE} />
               <SkillsName style={{ marginTop: "6px" }}>Node</SkillsName>
             </Li>
             <Li>
@@ -171,23 +171,23 @@ const SectionTwo = () => {
               </SkillsName>
             </Li>
             <Li>
-              <BiggerImage style={{ marginTop: "-17px" }} src={LARAVEL} />
-              <SkillsName style={{ marginTop: "-12px" }}>Laravel</SkillsName>
+              <SoBiggerImage src={LARAVEL} />
+              <SkillsName style={{ marginTop: "-17px" }}>Laravel</SkillsName>
             </Li>
             <Li>
-              <BiggerImage style={{ marginTop: "-20px" }} src={MONGODB} />
-              <SkillsName style={{ marginTop: "-18px" }}>MongoDB</SkillsName>
+              <SoBiggerImage src={MONGODB} />
+              <SkillsName style={{ marginTop: "-16px" }}>MongoDB</SkillsName>
             </Li>
             <Li>
-              <BiggerImage style={{ marginTop: "-22px" }} src={MYSQL} />
+              <BiggerImage style={{ marginTop: "-25px" }} src={MYSQL} />
               <SkillsName style={{ marginTop: "-1px" }}>MySql</SkillsName>
             </Li>
             <Li>
               <BiggerImage style={{ marginTop: "-12px" }} src={GIT} />
-              <SkillsName style={{ marginTop: "-8px" }}>GIT</SkillsName>
+              <SkillsName style={{ marginTop: "-10px" }}>GIT</SkillsName>
             </Li>
             <Li>
-              <Image src={GITHUB} />
+              <SmallerImage src={GITHUB} />
               <SkillsName style={{ marginTop: "10px" }}>Github</SkillsName>
             </Li>
           </Ul>
@@ -223,17 +223,28 @@ const Li = styled.li`
   justify-content: center;
   font-size: 1.8rem;
   margin-right: 10px;
-  /* border: 1px solid black; */
+`;
+
+const SmallerImage = styled.img`
+  width: 50px;
 `;
 
 const Image = styled.img`
   width: 60px;
-  /* margin-bottom: 5px;
-  padding: 0px 20px; */
+`;
+
+const LittleBigger = styled.img`
+  width: 70px;
 `;
 
 const BiggerImage = styled.img`
   width: 80px;
+`;
+
+const SoBiggerImage = styled.img`
+  width: 90px;
+  height: 95px;
+  margin-top: -25px;
 `;
 
 const ResponsiveWrapper = styled.div`
