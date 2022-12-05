@@ -138,8 +138,10 @@ const SectionFour = () => {
                 </ContentDiv>
               </Article>
               <Button
+                // href="/certificate"
                 onClick={() => {
                   navigate("/certificate");
+                  window.scrollTo(0, 0);
                 }}
               >
                 <DivButton>
