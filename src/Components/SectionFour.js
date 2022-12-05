@@ -142,7 +142,7 @@ const SectionFour = () => {
                   navigate("/certificate");
                   setTimeout(() => {
                     window.scrollTo(0, 0);
-                  }, 0);
+                  }, 100);
                 }}
               >
                 <DivButton>
