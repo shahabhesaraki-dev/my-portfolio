@@ -12,6 +12,7 @@ import GIT from "./img/git-256.png";
 import GITHUB from "./img/github-256.png";
 import MYSQL from "./img/mysql-256.png";
 import MONGODB from "./img/mongodb-256.png";
+import AMAZON from "./img/amazon-256.png";
 
 const SectionTwo = () => {
   return (
@@ -104,6 +105,10 @@ const SectionTwo = () => {
                 <SmallerImage src={GITHUB} />
                 <SkillsName style={{ marginTop: "10px" }}>Github</SkillsName>
               </Li>
+              <Li>
+                <SmallerImage src={AMAZON} />
+                <SkillsName style={{ marginTop: "10px" }}>AWS</SkillsName>
+              </Li>
             </Ul>
           </SecondContent>
 
@@ -190,6 +195,10 @@ const SectionTwo = () => {
               <SmallerImage src={GITHUB} />
               <SkillsName style={{ marginTop: "10px" }}>Github</SkillsName>
             </Li>
+            <Li>
+              <SmallerImage src={AMAZON} />
+              <SkillsName style={{ marginTop: "10px" }}>AWS</SkillsName>
+            </Li>
           </Ul>
         </ResponsiveSecondContent>
       </ResponsiveWrapper>
@@ -201,6 +210,7 @@ const SkillsName = styled.p`
   font-family: Abel;
   font-size: 15px;
   font-weight: bold;
+  margin-top: 10px;
 `;
 
 const Ul = styled.ul`
@@ -269,7 +279,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   width: 100%;
   @media (min-width: 701px) {
-    padding: 3rem 10rem;
+    padding: 3rem 6rem;
   }
 
   @media (min-width: 1000px) and (max-width: 1500px) {
@@ -290,6 +300,12 @@ const FirstSection = styled.article`
 const FirstContent = styled.div`
   position: relative;
   text-align: left;
+  @media (min-width: 1145px) {
+    width: 50%;
+  }
+  @media (min-width: 1000px) and (max-width: 1144px) {
+    width: 60%;
+  }
 `;
 
 const FirstSvg = styled.svg`
@@ -309,6 +325,12 @@ const SecondSection = styled.article`
 
 const SecondContent = styled.div`
   position: relative;
+  @media (min-width: 1145px) {
+    width: 50%;
+  }
+  @media (min-width: 1000px) and (max-width: 1144px) {
+    width: 60%;
+  }
 `;
 
 const SecondSvg = styled.svg`

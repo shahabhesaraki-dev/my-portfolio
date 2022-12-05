@@ -77,7 +77,7 @@ const MainDiv = styled.div`
   display: flex;
   flex-direction: column;
   background-color: #f5f4fc;
-  @media (min-width: 940px) {
+  @media (min-width: 1400px) {
     height: 100vh;
   }
 `;
