@@ -1,44 +1,51 @@
+import React, { useEffect } from "react";
 import styled from "styled-components";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const SectionThree = () => {
+  useEffect(() => {
+    Aos.init({ duration: 900 });
+  }, []);
   return (
     <>
       <MainSection id="aboutMe">
         <Wrapper>
           <Article>
             <ContentDiv>
-              <Title>About me</Title>
+              <Title data-aos="fade-up">About me</Title>
               <br />
-              <Paragraph>
+              <Paragraph data-aos="fade-up">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
               </Paragraph>
-              <Paragraph>
+              <Paragraph data-aos="fade-up">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
               </Paragraph>
-              <Paragraph>
+              <Paragraph data-aos="fade-up">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
               </Paragraph>
-              <Paragraph>
+              <Paragraph data-aos="fade-up">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
               </Paragraph>
-              <Paragraph>
+              <Paragraph data-aos="fade-up">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </Paragraph>
             </ContentDiv>
           </Article>
-          <Figure>
+          <Figure data-aos="fade-left">
             <Svg
               width="1003"
               height="722"
@@ -671,39 +678,39 @@ const SectionThree = () => {
         <ResponsiveWrapper>
           <Article>
             <ContentDiv>
-              <Title>About me</Title>
+              <Title data-aos="fade-up">About me</Title>
               <br />
-              <Paragraph>
+              <Paragraph data-aos="fade-up">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
               </Paragraph>
-              <Paragraph>
+              <Paragraph data-aos="fade-up">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
               </Paragraph>
-              <Paragraph>
+              <Paragraph data-aos="fade-up">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
               </Paragraph>
-              <Paragraph>
+              <Paragraph data-aos="fade-up">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
               </Paragraph>
-              <Paragraph>
+              <Paragraph data-aos="fade-up">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </Paragraph>
             </ContentDiv>
           </Article>
-          <Figure>
+          <Figure data-aos="fade-up">
             <Svg
               width="1003"
               height="722"

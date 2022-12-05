@@ -1,14 +1,20 @@
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const SectionFour = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <MainSection id="myWork">
       <Wrapper>
         <SubDiv>
           <AllDives>
-            <FirstPart>
+            <FirstPart data-aos="fade-right">
               <Article>
                 <ContentDiv>
                   <Title>I build and design stuff</Title>
@@ -44,7 +50,7 @@ const SectionFour = () => {
                 </DivButton>
               </Button>
             </FirstPart>
-            <SecondPart>
+            <SecondPart data-aos="fade-left">
               <Article>
                 <ContentDiv>
                   <Title>I completed some amazing</Title>
@@ -94,7 +100,7 @@ const SectionFour = () => {
       <ResponsiveWrapper>
         <SubDiv>
           <AllDives>
-            <FirstPart>
+            <FirstPart data-aos="fade-right">
               <Article>
                 <ContentDiv>
                   <Title>I build and design stuff</Title>
@@ -130,7 +136,7 @@ const SectionFour = () => {
                 </DivButton>
               </Button>
             </FirstPart>
-            <SecondPart>
+            <SecondPart data-aos="fade-left">
               <Article>
                 <ContentDiv>
                   <Title>I completed some amazing</Title>

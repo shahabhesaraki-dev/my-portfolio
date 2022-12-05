@@ -1,7 +1,13 @@
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import image from "./img/handsome.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const SectionOne = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <FullSection>
       <Wrapper>
@@ -22,10 +28,12 @@ const SectionOne = () => {
           </FirstSvg>
           <Article>
             <TextDiv>
-              <Title>Full-Stack</Title>
-              <Title>Developer</Title>
-              <Paragraph>I like to craft solid and scalable</Paragraph>
-              <Paragraph>applications with great user experiences.</Paragraph>
+              <Title data-aos="fade-left">Full-Stack</Title>
+              <Title data-aos="fade-right">Developer</Title>
+              <Paragraph data-aos="fade-up">Hello, I'm Shahab.</Paragraph>
+              <Paragraph data-aos="fade-up">
+                Thank you for visiting my portfolio website.
+              </Paragraph>
             </TextDiv>
           </Article>
 

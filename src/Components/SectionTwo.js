@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import HTML from "./img/html-256.png";
 import CSS from "./img/css-256.png";
@@ -13,15 +14,20 @@ import GITHUB from "./img/github-256.png";
 import MYSQL from "./img/mysql-256.png";
 import MONGODB from "./img/mongodb-256.png";
 import AMAZON from "./img/amazon-256.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const SectionTwo = () => {
+  useEffect(() => {
+    Aos.init({ duration: 900 });
+  }, []);
   return (
     <>
       <Wrapper>
         <FirstSection>
           <FirstContent>
             <Title>Front-End</Title>
-            <Ul>
+            <Ul data-aos="fade-right">
               <Li>
                 <Image src={HTML} />
                 <SkillsName>HTML</SkillsName>
@@ -74,7 +80,7 @@ const SectionTwo = () => {
         <SecondSection>
           <SecondContent>
             <Title>Back-End/ Tools</Title>
-            <Ul>
+            <Ul data-aos="fade-left">
               <Li>
                 <LittleBigger src={NODE} />
                 <SkillsName style={{ marginTop: "6px" }}>Node</SkillsName>
@@ -135,7 +141,7 @@ const SectionTwo = () => {
       <ResponsiveWrapper>
         <ResponsiveFirstContent>
           <Title>Front-End</Title>
-          <Ul>
+          <Ul data-aos="fade-right">
             <Li>
               <Image src={HTML} />
               <SkillsName>HTML</SkillsName>
@@ -164,7 +170,7 @@ const SectionTwo = () => {
         </ResponsiveFirstContent>
         <ResponsiveSecondContent>
           <Title>Back-End/Tools</Title>
-          <Ul>
+          <Ul data-aos="fade-left">
             <Li>
               <LittleBigger src={NODE} />
               <SkillsName style={{ marginTop: "6px" }}>Node</SkillsName>

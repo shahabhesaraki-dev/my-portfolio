@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import SecondHeader from "../SecondHeader";
 import ConcordiaLogo from "../img/concordia.png";

@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import Resume from "./File/SHAHAB HESARAKI - Resume.pdf";
 

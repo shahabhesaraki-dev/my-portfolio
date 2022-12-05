@@ -1,10 +1,16 @@
+import React, { useEffect } from "react";
 import styled from "styled-components";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const SectionFive = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <MainSection>
       <Wrapper>
-        <Article>
+        <Article data-aos="fade-up">
           <DivArticle>
             <Title>Send me a message!</Title>
             <Paragraph>
@@ -12,7 +18,7 @@ const SectionFive = () => {
             </Paragraph>
           </DivArticle>
         </Article>
-        <FormDiv>
+        <FormDiv data-aos="fade-up">
           <InputDiv>
             <InnerInputDiv>
               <Label>Your Name</Label>
@@ -55,7 +61,7 @@ const SectionFive = () => {
             </InnerMessageDiv>
           </ResponseMessageDiv>
 
-          <Button>
+          <Button data-aos="fade-up">
             <DivButton>
               <P>Shoot</P>
               <SvgButton

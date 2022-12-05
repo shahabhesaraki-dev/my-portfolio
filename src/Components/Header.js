@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import logo from "./img/myLogo.png";
 import Resume from "./File/SHAHAB HESARAKI - Resume.pdf";
