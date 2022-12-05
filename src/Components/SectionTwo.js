@@ -75,45 +75,33 @@ const SectionTwo = () => {
             <Title>Back-End/ Tools</Title>
             <Ul>
               <Li>
-                <Image style={{ width: "55px", marginTop: "8px" }} src={NODE} />
+                <BiggerImage src={NODE} />
                 <SkillsName style={{ marginTop: "6px" }}>Node</SkillsName>
               </Li>
               <Li>
-                <Image style={{ width: "55px", marginTop: "-3px" }} src={PHP} />
-                <SkillsName style={{ width: "55px", marginTop: "-3px" }}>
+                <BiggerImage style={{ marginTop: "-15px" }} src={PHP} />
+                <SkillsName style={{ width: "45px", marginTop: "-8px" }}>
                   PHP
                 </SkillsName>
               </Li>
               <Li>
-                <Image
-                  style={{ width: "70px", marginTop: "-10px" }}
-                  src={LARAVEL}
-                />
+                <BiggerImage style={{ marginTop: "-17px" }} src={LARAVEL} />
                 <SkillsName style={{ marginTop: "-12px" }}>Laravel</SkillsName>
               </Li>
               <Li>
-                <Image
-                  style={{ width: "80px", marginTop: "-13px" }}
-                  src={MONGODB}
-                />
+                <BiggerImage style={{ marginTop: "-20px" }} src={MONGODB} />
                 <SkillsName style={{ marginTop: "-18px" }}>MongoDB</SkillsName>
               </Li>
               <Li>
-                <Image
-                  style={{ width: "65px", marginTop: "-15px" }}
-                  src={MYSQL}
-                />
+                <BiggerImage style={{ marginTop: "-22px" }} src={MYSQL} />
                 <SkillsName style={{ marginTop: "-1px" }}>MySql</SkillsName>
               </Li>
               <Li>
-                <Image style={{ width: "65px", marginTop: "-5px" }} src={GIT} />
+                <BiggerImage style={{ marginTop: "-12px" }} src={GIT} />
                 <SkillsName style={{ marginTop: "-8px" }}>GIT</SkillsName>
               </Li>
               <Li>
-                <Image
-                  style={{ width: "30px", marginTop: "12px" }}
-                  src={GITHUB}
-                />
+                <Image src={GITHUB} />
                 <SkillsName style={{ marginTop: "10px" }}>Github</SkillsName>
               </Li>
             </Ul>
@@ -173,45 +161,33 @@ const SectionTwo = () => {
           <Title>Back-End/Tools</Title>
           <Ul>
             <Li>
-              <Image style={{ width: "55px", marginTop: "8px" }} src={NODE} />
+              <BiggerImage src={NODE} />
               <SkillsName style={{ marginTop: "6px" }}>Node</SkillsName>
             </Li>
             <Li>
-              <Image style={{ width: "55px", marginTop: "-3px" }} src={PHP} />
-              <SkillsName style={{ width: "55px", marginTop: "-3px" }}>
+              <BiggerImage style={{ marginTop: "-15px" }} src={PHP} />
+              <SkillsName style={{ width: "45px", marginTop: "-8px" }}>
                 PHP
               </SkillsName>
             </Li>
             <Li>
-              <Image
-                style={{ width: "70px", marginTop: "-10px" }}
-                src={LARAVEL}
-              />
+              <BiggerImage style={{ marginTop: "-17px" }} src={LARAVEL} />
               <SkillsName style={{ marginTop: "-12px" }}>Laravel</SkillsName>
             </Li>
             <Li>
-              <Image
-                style={{ width: "80px", marginTop: "-13px" }}
-                src={MONGODB}
-              />
+              <BiggerImage style={{ marginTop: "-20px" }} src={MONGODB} />
               <SkillsName style={{ marginTop: "-18px" }}>MongoDB</SkillsName>
             </Li>
             <Li>
-              <Image
-                style={{ width: "65px", marginTop: "-15px" }}
-                src={MYSQL}
-              />
+              <BiggerImage style={{ marginTop: "-22px" }} src={MYSQL} />
               <SkillsName style={{ marginTop: "-1px" }}>MySql</SkillsName>
             </Li>
             <Li>
-              <Image style={{ width: "65px", marginTop: "-5px" }} src={GIT} />
+              <BiggerImage style={{ marginTop: "-12px" }} src={GIT} />
               <SkillsName style={{ marginTop: "-8px" }}>GIT</SkillsName>
             </Li>
             <Li>
-              <Image
-                style={{ width: "30px", marginTop: "12px" }}
-                src={GITHUB}
-              />
+              <Image src={GITHUB} />
               <SkillsName style={{ marginTop: "10px" }}>Github</SkillsName>
             </Li>
           </Ul>
@@ -237,19 +213,27 @@ const Ul = styled.ul`
 
 const Li = styled.li`
   list-style: none;
-  width: 80px;
+  width: 100px;
   text-align: center;
   padding: 20px 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   font-size: 1.8rem;
+  margin-right: 10px;
+  /* border: 1px solid black; */
 `;
 
 const Image = styled.img`
-  width: 40px;
-  margin-bottom: 5px;
+  width: 60px;
+  /* margin-bottom: 5px;
+  padding: 0px 20px; */
+`;
+
+const BiggerImage = styled.img`
+  width: 80px;
 `;
 
 const ResponsiveWrapper = styled.div`
