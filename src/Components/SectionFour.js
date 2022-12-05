@@ -141,7 +141,7 @@ const SectionFour = () => {
                 // href="/certificate"
                 onClick={() => {
                   navigate("/certificate");
-                  window.scrollTo(0, 0);
+                  setTimeout(window.scrollTo(0, 0), 100);
                 }}
               >
                 <DivButton>
