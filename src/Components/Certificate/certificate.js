@@ -19,60 +19,51 @@ const Certificate = () => {
         </Head>
         <Section>
           <Ul>
-            <Link href={Diploma}>
-              <Li>
-                <Figure>
-                  <LogoImage src={ConcordiaLogo} />
-                </Figure>
-                <Detail>
-                  <H2>Full-Stack web development</H2>
-                  <H3>Main skills:</H3>
-                  <Skills>HTML, CSS, JavaScript, React, Node, MongoDB</Skills>
-                </Detail>
-              </Li>
-            </Link>
-            <Link href={Back}>
-              <Li>
-                <Figure>
-                  <LogoImage
-                    style={{ height: "140px", width: "275px" }}
-                    src={Mft}
-                  />
-                </Figure>
-                <Detail>
-                  <H2>Full-Stack web development</H2>
-                  <H3>Main skills:</H3>
-                  <Skills>HTML, CSS, JavaScript, PHP, Laravel, MySQL</Skills>
-                </Detail>
-              </Li>
-            </Link>
-            <Link href={Front}>
-              <Li>
-                <Figure>
-                  <LogoImage
-                    style={{ height: "140px", width: "275px" }}
-                    src={Mft}
-                  />
-                </Figure>
-                <Detail>
-                  <H2>Front-End development</H2>
-                  <H3>Main skills:</H3>
-                  <Skills>
-                    HTML, CSS, JavaScript, Bootstrap, JQuery, Saas
-                  </Skills>
-                </Detail>
-              </Li>
-            </Link>
+            <Li>
+              <Figure>
+                <LogoImage src={ConcordiaLogo} />
+              </Figure>
+              <Detail>
+                <H2>Full-Stack web development</H2>
+                <H3>Main skills:</H3>
+                <Skills>HTML, CSS, JavaScript, React, Node, MongoDB</Skills>
+                <DiplomaLink href={Diploma}>view certificate</DiplomaLink>
+              </Detail>
+            </Li>
+            <Li>
+              <Figure>
+                <LogoImage
+                  style={{ height: "140px", width: "275px" }}
+                  src={Mft}
+                />
+              </Figure>
+              <Detail>
+                <H2>Full-Stack web development</H2>
+                <H3>Main skills:</H3>
+                <Skills>HTML, CSS, JavaScript, PHP, Laravel, MySQL</Skills>
+                <DiplomaLink href={Back}>view certificate</DiplomaLink>
+              </Detail>
+            </Li>
+            <Li>
+              <Figure>
+                <LogoImage
+                  style={{ height: "140px", width: "275px" }}
+                  src={Mft}
+                />
+              </Figure>
+              <Detail>
+                <H2>Front-End development</H2>
+                <H3>Main skills:</H3>
+                <Skills>HTML, CSS, JavaScript, Bootstrap, JQuery, Saas</Skills>
+                <DiplomaLink href={Front}>view certificate</DiplomaLink>
+              </Detail>
+            </Li>
           </Ul>
         </Section>
       </MainSection>
     </MainDiv>
   );
 };
-
-const Link = styled.a`
-  text-decoration: none;
-`;
 
 const MainDiv = styled.div`
   display: flex;
@@ -142,7 +133,7 @@ const Li = styled.li`
     box-shadow: 0px 8px 6px -6px rgb(235, 234, 242, 58%);
   }
 
-  @media (max-width: 581px) {
+  @media (max-width: 480px) {
     width: 300px;
   }
 `;
@@ -168,10 +159,10 @@ const Detail = styled.div`
 `;
 
 const H2 = styled.h2`
-  font-family: Open Sans;
-  font-size: 17px;
+  font-family: Acme;
+  font-size: 28px;
   text-align: center;
-  color: black;
+  color: #4831d4;
 `;
 
 const H3 = styled.h3`
@@ -179,7 +170,7 @@ const H3 = styled.h3`
   font-size: 17px;
   text-align: center;
   margin-top: 30px;
-  color: #4831d4;
+  color: Black;
 `;
 
 const Skills = styled.p`
@@ -190,6 +181,18 @@ const Skills = styled.p`
   color: black;
   width: 100%;
   line-height: 1.4;
+`;
+
+const DiplomaLink = styled.a`
+  display: flex;
+  justify-content: center;
+  font-family: Open Sans;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 30px;
+  color: #4831d4;
+  cursor: pointer;
+  text-decoration: none;
 `;
 
 export default Certificate;

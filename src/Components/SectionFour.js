@@ -23,7 +23,14 @@ const SectionFour = () => {
                   </Paragraph>
                 </ContentDiv>
               </Article>
-              <Button>
+              <Button
+                onClick={() => {
+                  navigate("/works");
+                  setTimeout(() => {
+                    window.scrollTo(0, 0);
+                  }, 0);
+                }}
+              >
                 <DivButton>
                   <P>See my works</P>
                   <SvgButton
@@ -109,7 +116,14 @@ const SectionFour = () => {
                   </Paragraph>
                 </ContentDiv>
               </Article>
-              <Button>
+              <Button
+                onClick={() => {
+                  navigate("/works");
+                  setTimeout(() => {
+                    window.scrollTo(0, 0);
+                  }, 0);
+                }}
+              >
                 <DivButton>
                   <P>See my works</P>
                   <SvgButton
