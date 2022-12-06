@@ -123,8 +123,8 @@ const MainDiv = styled.div`
 
 const MainSection = styled.div`
   display: block;
-  margin-top: 200px;
-  padding: 0 4.5rem;
+  margin-top: 150px;
+  padding: 0 1.5rem;
   @media (min-width: 651px) {
     font-size: 0.9rem;
   }
@@ -166,13 +166,13 @@ const Li = styled.li`
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   transition-property: transform, box-shadow;
   list-style-type: none;
-  width: 410px;
+  width: 380px;
   @media (min-width: 940px) {
-    flex-basis: calc((100% - 2em) / 3);
+    flex-basis: calc((90%) / 3);
   }
 
   @media (min-width: 661px) and (max-width: 940px) {
-    flex-basis: calc((100% - 1em) / 2);
+    flex-basis: calc((90%) / 2);
   }
 
   &:hover {
@@ -181,7 +181,7 @@ const Li = styled.li`
   }
 
   @media (max-width: 480px) {
-    width: 300px;
+    width: 380px;
   }
 `;
 
