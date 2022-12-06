@@ -16,7 +16,7 @@ const Works = () => {
       <MainSection>
         <Head>
           <H1>My Projects</H1>
-          <P>Some of the projects I've made.</P>
+          <P>Some of the projects I've worked on.</P>
         </Head>
         <Section>
           <Ul>
