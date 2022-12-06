@@ -14,12 +14,14 @@ const SectionFour = () => {
       <Wrapper>
         <SubDiv>
           <AllDives>
-            <FirstPart data-aos="fade-right">
-              <Article>
+            <FirstPart>
+              <Article data-aos="fade-right">
                 <ContentDiv>
-                  <Title>I build and design stuff</Title>
+                  <Title>Projects</Title>
                   <Paragraph>
-                    Open source projects, web apps and experimentals.
+                    I worked on a range of projects and applications during my
+                    studies. I share some of them to show my knowledge and
+                    skills.
                   </Paragraph>
                 </ContentDiv>
               </Article>
@@ -31,7 +33,7 @@ const SectionFour = () => {
                   }, 0);
                 }}
               >
-                <DivButton>
+                <DivButton data-aos="fade-up">
                   <P>See my works</P>
                   <SvgButton
                     width="72"
@@ -57,13 +59,13 @@ const SectionFour = () => {
                 </DivButton>
               </Button>
             </FirstPart>
-            <SecondPart data-aos="fade-left">
-              <Article>
+            <SecondPart>
+              <Article data-aos="fade-left">
                 <ContentDiv>
-                  <Title>I completed some amazing</Title>
+                  <Title>Certificates</Title>
                   <Paragraph>
-                    bootcamps and courses in frontend and backend development
-                    and received their degrees.
+                    I've graduated from some amazing bootcamps and courses in
+                    frontend and backend programming and received their degrees.
                   </Paragraph>
                 </ContentDiv>
               </Article>
@@ -75,7 +77,7 @@ const SectionFour = () => {
                   }, 0);
                 }}
               >
-                <DivButton>
+                <DivButton data-aos="fade-up">
                   <P>See my certificates</P>
                   <SvgButton
                     width="72"
@@ -110,9 +112,11 @@ const SectionFour = () => {
             <FirstPart data-aos="fade-right">
               <Article>
                 <ContentDiv>
-                  <Title>I build and design stuff</Title>
+                  <Title>Projects</Title>
                   <Paragraph>
-                    Open source projects, web apps and experimentals.
+                    I worked on a range of projects and applications during my
+                    studies. I share some of them to show my knowledge and
+                    skills.
                   </Paragraph>
                 </ContentDiv>
               </Article>
@@ -153,10 +157,10 @@ const SectionFour = () => {
             <SecondPart data-aos="fade-left">
               <Article>
                 <ContentDiv>
-                  <Title>I completed some amazing</Title>
+                  <Title>certificates</Title>
                   <Paragraph>
-                    bootcamps and courses in frontend and backend development
-                    and received their degrees.
+                    I've graduated from some amazing bootcamps and courses in
+                    frontend and backend programming and received their degrees.
                   </Paragraph>
                 </ContentDiv>
               </Article>
@@ -245,7 +249,7 @@ const SubDiv = styled.div`
   background-color: #fff;
 
   @media (min-width: 1024px) and (min-height: 665px) and (max-height: 1500px) {
-    min-height: 40em;
+    min-height: 30em;
   }
 
   @media (max-width: 900px) {
@@ -255,7 +259,7 @@ const SubDiv = styled.div`
 
 const AllDives = styled.div`
   @media (min-width: 1024px) and (min-height: 665px) and (max-height: 1500px) {
-    min-height: 40em;
+    min-height: 30em;
   }
   width: 100%;
   display: flex;
@@ -296,9 +300,7 @@ const SecondPart = styled.div`
   border-style: solid;
   border-width: 0 0 0.15rem 0;
   border-color: rgba(72, 49, 212, 0.3);
-
   width: 50%;
-
   padding: 6.95em;
   padding-left: 8em;
   @media (max-width: 900px) {
@@ -328,6 +330,7 @@ const Title = styled.h1`
   font-weight: 900;
   line-height: 1.1;
   color: #4831d4;
+  letter-spacing: 1px;
 `;
 
 const Paragraph = styled.p`

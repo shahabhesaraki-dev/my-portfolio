@@ -10,7 +10,6 @@ const Footer = () => {
           <LinksDiv>
             <LinkUl>
               <Li>Shahabhes@gmail.com</Li>
-              <Li>+1 (438) 883-9936</Li>
               <Li>
                 <Link
                   href="https://github.com/shahabhesaraki-dev"

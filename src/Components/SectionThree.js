@@ -35,12 +35,6 @@ const SectionThree = () => {
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
-              </Paragraph>
-              <Paragraph data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </Paragraph>
             </ContentDiv>
@@ -1438,7 +1432,7 @@ const Paragraph = styled.p`
 
 const Svg = styled.svg`
   @media (min-width: 1000px) {
-    height: 50.14em;
+    height: 42.14em;
   }
   flex-shrink: 0;
   max-width: inherit;

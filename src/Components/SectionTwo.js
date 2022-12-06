@@ -27,7 +27,7 @@ const SectionTwo = () => {
         <FirstSection>
           <FirstContent>
             <Title>Front-End</Title>
-            <Ul data-aos="fade-right">
+            <Ul data-aos="fade-left">
               <Li>
                 <Image src={HTML} />
                 <SkillsName>HTML</SkillsName>
@@ -80,7 +80,7 @@ const SectionTwo = () => {
         <SecondSection>
           <SecondContent>
             <Title>Back-End/ Tools</Title>
-            <Ul data-aos="fade-left">
+            <Ul data-aos="fade-right">
               <Li>
                 <LittleBigger src={NODE} />
                 <SkillsName style={{ marginTop: "6px" }}>Node</SkillsName>

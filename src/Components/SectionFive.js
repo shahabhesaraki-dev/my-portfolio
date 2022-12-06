@@ -61,7 +61,7 @@ const SectionFive = () => {
             </InnerMessageDiv>
           </ResponseMessageDiv>
 
-          <Button data-aos="fade-up">
+          <Button>
             <DivButton>
               <P>Shoot</P>
               <SvgButton
