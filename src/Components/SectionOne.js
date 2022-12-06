@@ -28,8 +28,8 @@ const SectionOne = () => {
           </FirstSvg>
           <Article>
             <TextDiv>
-              <Title data-aos="fade-left">Full-Stack</Title>
-              <Title data-aos="fade-left">Developer</Title>
+              <Title data-aos="fade-down">Full-Stack</Title>
+              <Title data-aos="fade-down">Developer</Title>
               <Paragraph data-aos="fade-up">Hello, I'm Shahab.</Paragraph>
               <Paragraph data-aos="fade-up">
                 Thank you for visiting my portfolio website.

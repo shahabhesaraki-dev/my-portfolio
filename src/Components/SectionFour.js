@@ -109,7 +109,7 @@ const SectionFour = () => {
       <ResponsiveWrapper>
         <SubDiv>
           <AllDives>
-            <FirstPart data-aos="fade-right">
+            <FirstPart data-aos="fade-up">
               <Article>
                 <ContentDiv>
                   <Title>Projects</Title>
@@ -154,7 +154,7 @@ const SectionFour = () => {
                 </DivButton>
               </Button>
             </FirstPart>
-            <SecondPart data-aos="fade-left">
+            <SecondPart data-aos="fade-up">
               <Article>
                 <ContentDiv>
                   <Title>certificates</Title>
