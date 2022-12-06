@@ -32,10 +32,7 @@ const Certificate = () => {
             </Li>
             <Li>
               <Figure>
-                <LogoImage
-                  style={{ height: "140px", width: "275px" }}
-                  src={Mft}
-                />
+                <BiggerLogoImage src={Mft} />
               </Figure>
               <Detail>
                 <H2>Full-Stack web development</H2>
@@ -46,10 +43,7 @@ const Certificate = () => {
             </Li>
             <Li>
               <Figure>
-                <LogoImage
-                  style={{ height: "140px", width: "275px" }}
-                  src={Mft}
-                />
+                <BiggerLogoImage src={Mft} />
               </Figure>
               <Detail>
                 <H2>Front-End development</H2>
@@ -152,6 +146,12 @@ const Figure = styled.figure`
 const LogoImage = styled.img`
   width: 220px;
   height: 70px;
+`;
+
+const BiggerLogoImage = styled.img`
+  height: 140px;
+  width: 275px;
+  margin-left: -10px;
 `;
 
 const Detail = styled.div`
