@@ -30,9 +30,12 @@ const Works = () => {
                 <Skills>
                   HTML, CSS, JavaScript, React, Node, Express, MongoDB
                 </Skills>
-                <Github href="https://github.com/shahabhesaraki-dev/my-portfolio">
-                  view github
-                </Github>
+                <FlexDiv>
+                  <Github href="https://github.com/shahabhesaraki-dev/my-portfolio">
+                    Github
+                  </Github>
+                  <Live>Live</Live>
+                </FlexDiv>
               </Detail>
             </Li>
             <Li>
@@ -45,9 +48,12 @@ const Works = () => {
                 <Skills>
                   HTML, CSS, JavaScript, React, Node, Express, MongoDB
                 </Skills>
-                <Github href="https://github.com/shahabhesaraki-dev/E-Commerce-Project">
-                  view github
-                </Github>
+                <FlexDiv>
+                  <Github href="https://github.com/shahabhesaraki-dev/E-Commerce-Project">
+                    Github
+                  </Github>
+                  <Live>Live</Live>
+                </FlexDiv>
               </Detail>
             </Li>
             <Li>
@@ -60,9 +66,12 @@ const Works = () => {
                 <Skills>
                   HTML, CSS, JavaScript, React, Node, Express, MongoDB
                 </Skills>
-                <Github href="https://github.com/shahabhesaraki-dev/animalCare">
-                  view github
-                </Github>
+                <FlexDiv>
+                  <Github href="https://github.com/shahabhesaraki-dev/animalCare">
+                    Github
+                  </Github>
+                  <Live>Live</Live>
+                </FlexDiv>
               </Detail>
             </Li>
             <Li>
@@ -75,9 +84,12 @@ const Works = () => {
                 <Skills>
                   HTML, CSS, JavaScript, React, Node, Express, MongoDB
                 </Skills>
-                <Github href="https://github.com/shahabhesaraki-dev/Concordia-FinalProject">
-                  view github
-                </Github>
+                <FlexDiv>
+                  <Github href="https://github.com/shahabhesaraki-dev/Concordia-FinalProject">
+                    Github
+                  </Github>
+                  <Live>Live</Live>
+                </FlexDiv>
               </Detail>
             </Li>
             <Li>
@@ -90,9 +102,12 @@ const Works = () => {
                 <Skills>
                   HTML, CSS, JavaScript, React, Node, Express, MongoDB
                 </Skills>
-                <Github href="https://github.com/shahabhesaraki-dev/SlingAir">
-                  view github
-                </Github>
+                <FlexDiv>
+                  <Github href="https://github.com/shahabhesaraki-dev/SlingAir">
+                    Github
+                  </Github>
+                  <Live href="https://myslingairapp.netlify.app">Live</Live>
+                </FlexDiv>
               </Detail>
             </Li>
             <Li>
@@ -103,9 +118,12 @@ const Works = () => {
                 <H2>FaceSpace</H2>
                 <H3>Main skills:</H3>
                 <Skills>HTML, CSS, JavaScript, React, Node, Express</Skills>
-                <Github href="https://github.com/shahabhesaraki-dev/FaceSpace">
-                  view github
-                </Github>
+                <FlexDiv>
+                  <Github href="https://github.com/shahabhesaraki-dev/FaceSpace">
+                    Github
+                  </Github>
+                  <Live>Live</Live>
+                </FlexDiv>
               </Detail>
             </Li>
           </Ul>
@@ -237,13 +255,38 @@ const Skills = styled.p`
 const Github = styled.a`
   display: flex;
   justify-content: center;
-  font-family: Open Sans;
-  font-size: 17px;
+  font-family: Abel;
+  font-size: 19px;
+  font-weight: bold;
   text-align: center;
   margin-top: 30px;
   color: #4831d4;
   cursor: pointer;
   text-decoration: none;
+  margin-right: 3px;
+`;
+
+const Live = styled.a`
+  &::before {
+    content: "|";
+    color: black;
+    margin-right: 3px;
+  }
+  display: flex;
+  justify-content: center;
+  font-family: Abel;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  color: #4831d4;
+  cursor: pointer;
+  text-decoration: none;
+`;
+
+const FlexDiv = styled.div`
+  display: flex;
+  justify-content: center;
 `;
 
 export default Works;
