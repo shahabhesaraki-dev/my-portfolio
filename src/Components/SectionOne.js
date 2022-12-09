@@ -3,6 +3,7 @@ import styled from "styled-components";
 import image from "./img/handsome.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import AVATAR from "./img/Avatar.png";
 
 const SectionOne = () => {
   useEffect(() => {
@@ -75,14 +76,18 @@ const SectionOne = () => {
                 d="M2.114 541.705v0l-.56 22.258v0l22.258-.561v0l-.56 22.259v0l22.258-.56v0l-.56 22.258v0l22.258-.56v0l-.559 22.26v0l22.26-.56v0"
               ></path>
             </SecondSvg>
-            <Span />
+            <Span>
+              <AvatarImageOne src={AVATAR} />
+            </Span>
           </Figure>
         </PartOne>
       </Wrapper>
       <WrapperTwo>
         <PartTwo>
           <FigureTwo>
-            <SpanTwo />
+            {/* <SpanTwo> */}
+            <AvatarImageTwo src={AVATAR} />
+            {/* </SpanTwo> */}
           </FigureTwo>
         </PartTwo>
       </WrapperTwo>
@@ -104,7 +109,7 @@ const Wrapper = styled.div`
   padding-bottom: 4.17rem;
 
   @media (min-width: 581px) {
-    background: linear-gradient(90deg, #4831d4 67%, #ccf381 33%);
+    background: linear-gradient(90deg, #4831d4 65%, #ccf381 35%);
   }
 
   @media (max-width: 581px) {
@@ -210,6 +215,7 @@ const Figure = styled.figure`
   @media (max-width: 581px) {
     display: none;
   }
+  border: none;
 `;
 
 const SecondSvg = styled.svg`
@@ -228,10 +234,10 @@ const Span = styled.span`
   height: inherit;
   margin-top: -2.435em;
   margin-left: -3em;
-  background-color: #fff;
+  background-color: linear-gradient(90deg, #4831d4 50%, #ccf381 50%);
   background-size: cover;
   background-position-x: center;
-  /* background-image: url(${image}); */
+  /* background-image: url(${AVATAR}); */
 `;
 
 const SpanTwo = styled.span`
@@ -239,11 +245,29 @@ const SpanTwo = styled.span`
   display: block;
   height: inherit;
   margin-top: -2.435em;
-  background-color: #fff;
+  background-color: #ccf381;
   background-size: cover;
   background-position-x: center;
-  /* background-image: url(${image}); */
+  /* background-image: url(${AVATAR}); */
   margin-left: -2em;
+`;
+
+const AvatarImageOne = styled.img`
+  width: inherit;
+  display: block;
+  height: inherit;
+  margin-left: -25px;
+  margin-top: -30px;
+  border: 5px solid white;
+`;
+
+const AvatarImageTwo = styled.img`
+  width: inherit;
+  display: block;
+  height: inherit;
+  margin-left: -25px;
+  margin-top: -30px;
+  border: 5px solid white;
 `;
 
 export default SectionOne;

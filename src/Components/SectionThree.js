@@ -16,26 +16,32 @@ const SectionThree = () => {
               <Title data-aos="fade-up">About me</Title>
               <br />
               <Paragraph data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Hello again! Thanks for scrolling this far!! I am a full-stack
+                web developer with over 4 years of learning experience in couple
+                of programing languages.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                I consider mylself a mern stack developer. During my most recent
+                bootcamp at Concordia University, I studied Front-end and
+                Back-end development that focused strongly on using MERN stack.
+                I started with React for the front-end and continued with
+                Express, Node and MongoDB for the back-end. I also completed
+                some projects using MERN stack, including HTML, CSS and
+                JavaScrip.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                I am also able to work on PHP projects. As I have two years of
+                learning experience in PHP and Laravel in Tehran institute of
+                technology and one year of experience as an intern in Iran.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
+                I'm currently working on a new project (Animal Care). You may
+                find it among my works. In addition, I am learning Typescript. I
+                really enjoy learning new languages.
+              </Paragraph>
+              <Paragraph data-aos="fade-up">
+                When I'm not programming or studying, I'm probably watching
+                football. This is my favourite activity.
               </Paragraph>
             </ContentDiv>
           </Article>
@@ -675,32 +681,32 @@ const SectionThree = () => {
               <Title data-aos="fade-up">About me</Title>
               <br />
               <Paragraph data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Hello again! Thanks for scrolling this far!! I am a full-stack
+                web developer with over 4 years of learning experience in couple
+                of programing languages.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                I consider mylself a mern stack developer. During my most recent
+                bootcamp at Concordia University, I studied Front-end and
+                Back-end development that focused strongly on using MERN stack.
+                I started with React for the front-end and continued with
+                Express, Node and MongoDB for the back-end. I also completed
+                some projects using MERN stack, including HTML, CSS and
+                JavaScrip.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                I am also able to work on PHP projects. As I have two years of
+                learning experience in PHP and Laravel in Tehran institute of
+                technology and one year of experience as an intern in Iran.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                I'm currently working on a new project (Animal Care). You may
+                find it among my works. In addition, I am learning Typescript. I
+                really enjoy learning new languages.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
+                When I'm not programming or studying, I'm probably watching
+                football. This is my favourite activity.
               </Paragraph>
             </ContentDiv>
           </Article>

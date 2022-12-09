@@ -7,8 +7,10 @@ import ECOMMERCE from "../img/Ecommerce-project.png";
 import NEWS from "../img/NewProject.png";
 import SLINGAIR from "../img/Slingair-project.png";
 import FACESPACE from "../img/Facespace-project.png";
+import { useNavigate } from "react-router-dom";
 
 const Works = () => {
+  const navigate = useNavigate();
   return (
     <MainDiv>
       <SecondHeader />
@@ -34,7 +36,16 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/my-portfolio">
                     Github
                   </Github>
-                  <Live>Live</Live>
+                  <Live
+                    onClick={() => {
+                      navigate("/");
+                      setTimeout(() => {
+                        window.scrollTo(0, 0);
+                      }, 0);
+                    }}
+                  >
+                    Live(Responsive)
+                  </Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -52,7 +63,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/E-Commerce-Project">
                     Github
                   </Github>
-                  <Live>Live</Live>
+                  <Live>Live(soon)</Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -70,7 +81,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/animalCare">
                     Github
                   </Github>
-                  <Live>Live</Live>
+                  <Live>Live(soon)</Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -88,7 +99,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/Concordia-FinalProject">
                     Github
                   </Github>
-                  <Live>Live</Live>
+                  <Live href="https://mynewsapplication.netlify.app">Live</Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -106,7 +117,9 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/SlingAir">
                     Github
                   </Github>
-                  <Live href="https://myslingairapp.netlify.app">Live</Live>
+                  <Live href="https://myslingairapp.netlify.app">
+                    Live(Responsive)
+                  </Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -122,7 +135,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/FaceSpace">
                     Github
                   </Github>
-                  <Live>Live</Live>
+                  <Live>Live(soon)</Live>
                 </FlexDiv>
               </Detail>
             </Li>
