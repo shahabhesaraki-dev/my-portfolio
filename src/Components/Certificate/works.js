@@ -246,7 +246,7 @@ const H2 = styled.h2`
   font-family: Acme;
   font-size: 40px;
   text-align: center;
-  color: #4831d4;
+  color: #071b34;
 `;
 
 const H3 = styled.h3`
@@ -275,7 +275,7 @@ const Github = styled.a`
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
-  color: #4831d4;
+  color: #071b34;
   cursor: pointer;
   text-decoration: none;
   margin-right: 3px;
@@ -294,7 +294,7 @@ const Live = styled.a`
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
-  color: #4831d4;
+  color: #071b34;
   cursor: pointer;
   text-decoration: none;
 `;

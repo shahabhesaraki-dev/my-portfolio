@@ -162,7 +162,7 @@ const H2 = styled.h2`
   font-family: Acme;
   font-size: 28px;
   text-align: center;
-  color: #4831d4;
+  color: #071b34;
 `;
 
 const H3 = styled.h3`
@@ -190,7 +190,7 @@ const DiplomaLink = styled.a`
   font-size: 17px;
   text-align: center;
   margin-top: 30px;
-  color: #4831d4;
+  color: #071b34;
   cursor: pointer;
   text-decoration: none;
 `;

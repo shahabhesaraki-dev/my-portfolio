@@ -57,7 +57,7 @@ const SecondHeader = () => {
 const Link = styled.a`
   cursor: pointer;
   text-decoration: none;
-  color: #4831d4;
+  color: #144361;
 `;
 
 const Nav = styled.nav`

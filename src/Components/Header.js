@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import logo from "./img/myLogo.png";
+// import logo from "./img/myLogo.png";
+import logo from "./img/logoFirst.png";
 import Resume from "./File/SHAHAB HESARAKI - Resume.pdf";
 
 const Header = () => {
@@ -58,7 +59,7 @@ const Header = () => {
 const Link = styled.a`
   cursor: pointer;
   text-decoration: none;
-  color: #4831d4;
+  color: #144361;
 `;
 
 const Nav = styled.nav`
@@ -93,7 +94,7 @@ const Ul = styled.ul`
 
 const Li = styled.li`
   font-family: Acme;
-  color: #4831d4;
+  color: #144361;
 `;
 
 const Button = styled.button`
@@ -105,7 +106,7 @@ const Button = styled.button`
   display: inline-flex;
   margin-top: 0.699em;
   border: none;
-  color: #ccf381;
+  color: #86b2cb;
 
   &::before {
     content: "";

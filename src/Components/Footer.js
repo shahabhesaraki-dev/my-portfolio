@@ -48,7 +48,7 @@ const Footer = () => {
 
 const Link = styled.a`
   cursor: pointer;
-  color: #badd76;
+  color: #86b2cb;
   text-decoration: none;
 `;
 
@@ -57,8 +57,8 @@ const MainDiv = styled.div`
   position: relative;
   align-items: center;
   justify-content: center;
-  color: #badd76;
-  background: #3d155f;
+  color: #86b2cb;
+  background: #071b34;
   font-size: 1.2em;
   margin-top: 50px;
   @media (min-width: 701px) and (max-width: 1600px) {
@@ -123,7 +123,7 @@ const NavUl = styled.ul`
 
 const Sign = styled.h3`
   font-family: Acme;
-  color: #ccf381;
+  color: #86b2cb;
   font-size: 19px;
   font-weight: 100;
   padding: 5px;

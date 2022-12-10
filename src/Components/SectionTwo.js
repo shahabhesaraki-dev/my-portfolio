@@ -357,7 +357,7 @@ const Title = styled.h1`
   font-size: 2.8em;
   font-weight: 900;
   line-height: 1.1;
-  color: #4831d4;
+  color: #144361;
 `;
 
 export default SectionTwo;

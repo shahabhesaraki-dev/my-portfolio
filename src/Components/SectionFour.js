@@ -43,14 +43,14 @@ const SectionFour = () => {
                   >
                     <path
                       fill="none"
-                      stroke="#4831D4"
+                      stroke="#144361"
                       strokeWidth="2"
                       strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                     ></path>
                     <Path
                       fill="none"
-                      stroke="#4831D4"
+                      stroke="#144361"
                       strokeWidth="2"
                       strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
@@ -87,14 +87,14 @@ const SectionFour = () => {
                   >
                     <path
                       fill="none"
-                      stroke="#4831D4"
+                      stroke="#144361"
                       strokeWidth="2"
                       strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                     ></path>
                     <Path
                       fill="none"
-                      stroke="#4831D4"
+                      stroke="#144361"
                       strokeWidth="2"
                       strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
@@ -138,14 +138,14 @@ const SectionFour = () => {
                   >
                     <path
                       fill="none"
-                      stroke="#4831D4"
+                      stroke="#144361"
                       strokeWidth="2"
                       strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                     ></path>
                     <Path
                       fill="none"
-                      stroke="#4831D4"
+                      stroke="#144361"
                       strokeWidth="2"
                       strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
@@ -182,14 +182,14 @@ const SectionFour = () => {
                   >
                     <path
                       fill="none"
-                      stroke="#4831D4"
+                      stroke="#144361"
                       strokeWidth="2"
                       strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                     ></path>
                     <Path
                       fill="none"
-                      stroke="#4831D4"
+                      stroke="#144361"
                       strokeWidth="2"
                       strokeMiterlimit="0"
                       d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
@@ -221,8 +221,6 @@ const ResponsiveWrapper = styled.div`
   }
   display: flex;
   flex-direction: column;
-  margin-top: 5em;
-  padding: 0 0rem;
   max-width: 100%;
   font-size: 0.8rem;
 `;
@@ -277,7 +275,7 @@ const FirstPart = styled.div`
 
   border-style: solid;
   border-width: 0 0 0.15rem 0;
-  border-color: rgba(72, 49, 212, 0.3);
+  border-color: #144361;
   width: 50%;
   padding: 6.95em;
   padding-left: 8em;
@@ -286,7 +284,7 @@ const FirstPart = styled.div`
     width: 100%;
     border-style: solid;
     border-width: 0 0 0.15rem 0;
-    border-color: rgba(72, 49, 212, 0.3);
+    border-color: #144361;
     padding: 5.95em;
     padding-left: 3em;
   }
@@ -329,7 +327,7 @@ const Title = styled.h1`
   margin: 0;
   font-weight: 900;
   line-height: 1.1;
-  color: #4831d4;
+  color: #144361;
   letter-spacing: 1px;
 `;
 
@@ -339,7 +337,7 @@ const Paragraph = styled.p`
   font-size: 1.6em;
   letter-spacing: 0.02em;
   max-width: 701px;
-  color: #3d155f;
+  color: #144361;
   margin-top: 20px;
 `;
 
@@ -368,7 +366,7 @@ const SvgButton = styled.svg`
 const Path = styled.path``;
 
 const P = styled.p`
-  color: #4831d4;
+  color: #144361;
   z-index: 10;
 `;
 
@@ -380,7 +378,7 @@ const DivButton = styled.div`
   justify-content: center;
   padding: 1.25em 3em;
   width: 100%;
-  color: #4831d4;
+  color: #144361;
   border: 1px solid currentColor;
   &::before {
     content: "";

@@ -72,14 +72,14 @@ const SectionFive = () => {
               >
                 <path
                   fill="none"
-                  stroke="#4831D4"
+                  stroke="#144361"
                   strokeWidth="2"
                   strokeMiterlimit="0"
                   d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
                 ></path>
                 <Path
                   fill="none"
-                  stroke="#4831D4"
+                  stroke="#144361"
                   strokeWidth="2"
                   strokeMiterlimit="0"
                   d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
@@ -136,7 +136,7 @@ const Title = styled.h1`
   margin: 0;
   font-weight: 900;
   line-height: 1.1;
-  color: #4831d4;
+  color: #144361;
 `;
 
 const Paragraph = styled.p`
@@ -147,7 +147,7 @@ const Paragraph = styled.p`
   margin-top: 15px;
   letter-spacing: 0.02em;
   max-width: 701px;
-  color: #3d155f;
+  color: #144361;
 `;
 
 const FormDiv = styled.div`
@@ -225,7 +225,7 @@ const SvgButton = styled.svg`
 const Path = styled.path``;
 
 const P = styled.p`
-  color: #4831d4;
+  color: #144361;
   z-index: 10;
 `;
 
@@ -237,7 +237,7 @@ const DivButton = styled.div`
   justify-content: center;
   padding: 1.25em 3em;
   width: 100%;
-  color: #4831d4;
+  color: #144361;
   border: 1px solid currentColor;
   &::before {
     content: "";
@@ -274,6 +274,7 @@ const Label = styled.label`
   font-weight: 200;
   margin-bottom: 5px;
   font-family: Acme;
+  color: #144361 !important;
 `;
 
 const Input = styled.input`
