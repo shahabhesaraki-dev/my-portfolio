@@ -41,6 +41,7 @@ const Footer = () => {
           </NavUl>
         </InnerDiv>
       </Wrapper>
+      <Sign>© Shahab Hesaraki 2022</Sign>
     </MainDiv>
   );
 };
@@ -63,6 +64,7 @@ const MainDiv = styled.div`
   @media (min-width: 701px) and (max-width: 1600px) {
     font-size: 1vw;
   }
+  flex-direction: column;
 `;
 
 const Wrapper = styled.div`
@@ -117,6 +119,17 @@ const NavUl = styled.ul`
   margin: 0;
   padding: 0;
   list-style-type: none;
+`;
+
+const Sign = styled.h3`
+  font-family: Acme;
+  color: #ccf381;
+  font-size: 19px;
+  font-weight: 100;
+  padding: 5px;
+  @media (max-width: 580px) {
+    font-size: 16px;
+  }
 `;
 
 export default Footer;
