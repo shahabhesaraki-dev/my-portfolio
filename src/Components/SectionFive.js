@@ -1,9 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const SectionFive = () => {
+  const [message, setMessage] = useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [comment, setComment] = useState("");
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -22,12 +26,23 @@ const SectionFive = () => {
           <InputDiv>
             <InnerInputDiv>
               <Label>Your Name</Label>
-              <Input type="text" placeholder="Enter your name"></Input>
+              <Input
+                value={"" || name}
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+                type="text"
+                placeholder="Enter your name"
+              ></Input>
             </InnerInputDiv>
             <InnerInputDiv>
               <Label>Your Email</Label>
               <Input
                 type="email"
+                value={"" || email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
                 placeholder="Enter your email address"
               ></Input>
             </InnerInputDiv>
@@ -36,12 +51,23 @@ const SectionFive = () => {
           <ResponseInputDiv>
             <InnerInputDiv>
               <Label>Your Name</Label>
-              <Input type="text" placeholder="Enter your name"></Input>
+              <Input
+                value={"" || name}
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+                type="text"
+                placeholder="Enter your name"
+              ></Input>
             </InnerInputDiv>
             <InnerInputDiv>
               <Label>Your Email</Label>
               <Input
                 type="email"
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+                value={"" || email}
                 placeholder="Enter your email address"
               ></Input>
             </InnerInputDiv>
@@ -50,18 +76,37 @@ const SectionFive = () => {
           <MessageDiv>
             <InnerMessageDiv>
               <Label>Your Message</Label>
-              <TextArea placeholder="Hi..." />
+              <TextArea
+                value={"" || comment}
+                onChange={(e) => {
+                  setComment(e.target.value);
+                }}
+                placeholder="Hi..."
+              />
             </InnerMessageDiv>
           </MessageDiv>
 
           <ResponseMessageDiv>
             <InnerMessageDiv>
               <Label>Your Message</Label>
-              <TextArea placeholder="Hi..." />
+              <TextArea
+                value={"" || comment}
+                onChange={(e) => {
+                  setComment(e.target.value);
+                }}
+                placeholder="Hi..."
+              />
             </InnerMessageDiv>
           </ResponseMessageDiv>
 
-          <Button>
+          <Button
+            onClick={() => {
+              setComment("");
+              setEmail("");
+              setName("");
+              setMessage("Thanks! I received your message.");
+            }}
+          >
             <DivButton>
               <P>Shoot</P>
               <SvgButton
@@ -87,6 +132,7 @@ const SectionFive = () => {
               </SvgButton>
             </DivButton>
           </Button>
+          {message.length > 0 ? <Message>{message}</Message> : null}
         </FormDiv>
       </Wrapper>
     </MainSection>
@@ -340,6 +386,13 @@ const TextArea = styled.textarea`
   &::placeholder {
     font-family: Abel;
   }
+`;
+
+const Message = styled.h3`
+  font-family: Abel;
+  font-size: 17px;
+  margin-top: 10px;
+  color: darkgreen;
 `;
 
 export default SectionFive;
