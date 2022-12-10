@@ -44,7 +44,7 @@ const Works = () => {
                       }, 0);
                     }}
                   >
-                    Live(Responsive)
+                    Live (Responsive)
                   </Live>
                 </FlexDiv>
               </Detail>
@@ -63,7 +63,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/E-Commerce-Project">
                     Github
                   </Github>
-                  <Live>Live(soon)</Live>
+                  <Live>Live (soon)</Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -81,7 +81,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/animalCare">
                     Github
                   </Github>
-                  <Live>Live(soon)</Live>
+                  <Live>Live (soon)</Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -99,7 +99,9 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/Concordia-FinalProject">
                     Github
                   </Github>
-                  <Live href="https://mynewsapplication.netlify.app">Live</Live>
+                  <Live href="https://mynewsapplication.netlify.app">
+                    Live (No Responsive)
+                  </Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -118,7 +120,7 @@ const Works = () => {
                     Github
                   </Github>
                   <Live href="https://myslingairapp.netlify.app">
-                    Live(Responsive)
+                    Live (Responsive)
                   </Live>
                 </FlexDiv>
               </Detail>
@@ -135,7 +137,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/FaceSpace">
                     Github
                   </Github>
-                  <Live>Live(soon)</Live>
+                  <Live>Live (soon)</Live>
                 </FlexDiv>
               </Detail>
             </Li>

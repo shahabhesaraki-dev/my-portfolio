@@ -27,7 +27,7 @@ const SectionThree = () => {
                 I started with React for the front-end and continued with
                 Express, Node and MongoDB for the back-end. I also completed
                 some projects using MERN stack, including HTML, CSS and
-                JavaScrip.
+                JavaScript.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I am also able to work on PHP projects. As I have two years of
@@ -692,7 +692,7 @@ const SectionThree = () => {
                 I started with React for the front-end and continued with
                 Express, Node and MongoDB for the back-end. I also completed
                 some projects using MERN stack, including HTML, CSS and
-                JavaScrip.
+                JavaScript.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I am also able to work on PHP projects. As I have two years of

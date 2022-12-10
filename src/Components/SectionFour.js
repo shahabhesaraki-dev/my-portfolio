@@ -157,7 +157,7 @@ const SectionFour = () => {
             <SecondPart data-aos="fade-up">
               <Article>
                 <ContentDiv>
-                  <Title>certificates</Title>
+                  <Title>Certificates</Title>
                   <Paragraph>
                     I've graduated from some amazing bootcamps and courses in
                     frontend and backend programming and received their degrees.
