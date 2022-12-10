@@ -234,20 +234,7 @@ const Span = styled.span`
   background-color: linear-gradient(90deg, #4831d4 50%, #ccf381 50%);
   background-size: cover;
   background-position-x: center;
-  /* background-image: url(${AVATAR}); */
 `;
-
-// const SpanTwo = styled.span`
-//   width: inherit;
-//   display: block;
-//   height: inherit;
-//   margin-top: -2.435em;
-//   background-color: #ccf381;
-//   background-size: cover;
-//   background-position-x: center;
-//   background-image: url(${AVATAR});
-//   margin-left: -2em;
-// `;
 
 const AvatarImageOne = styled.img`
   width: inherit;
