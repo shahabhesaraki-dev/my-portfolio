@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
-import image from "./img/handsome.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import AVATAR from "./img/Avatar.png";
@@ -85,9 +84,7 @@ const SectionOne = () => {
       <WrapperTwo>
         <PartTwo>
           <FigureTwo>
-            {/* <SpanTwo> */}
             <AvatarImageTwo src={AVATAR} />
-            {/* </SpanTwo> */}
           </FigureTwo>
         </PartTwo>
       </WrapperTwo>
@@ -240,17 +237,17 @@ const Span = styled.span`
   /* background-image: url(${AVATAR}); */
 `;
 
-const SpanTwo = styled.span`
-  width: inherit;
-  display: block;
-  height: inherit;
-  margin-top: -2.435em;
-  background-color: #ccf381;
-  background-size: cover;
-  background-position-x: center;
-  /* background-image: url(${AVATAR}); */
-  margin-left: -2em;
-`;
+// const SpanTwo = styled.span`
+//   width: inherit;
+//   display: block;
+//   height: inherit;
+//   margin-top: -2.435em;
+//   background-color: #ccf381;
+//   background-size: cover;
+//   background-position-x: center;
+//   background-image: url(${AVATAR});
+//   margin-left: -2em;
+// `;
 
 const AvatarImageOne = styled.img`
   width: inherit;
