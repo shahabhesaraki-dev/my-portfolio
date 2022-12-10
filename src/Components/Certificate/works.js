@@ -100,7 +100,7 @@ const Works = () => {
                     Github
                   </Github>
                   <Live href="https://mynewsapplication.netlify.app">
-                    Live (No Responsive)
+                    Live (Non Responsive)
                   </Live>
                 </FlexDiv>
               </Detail>

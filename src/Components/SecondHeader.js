@@ -93,7 +93,7 @@ const Ul = styled.ul`
 
 const Li = styled.li`
   font-family: Acme;
-  color: #4831d4;
+  color: #144361;
 `;
 
 const Button = styled.button`
@@ -105,7 +105,7 @@ const Button = styled.button`
   display: inline-flex;
   margin-top: 0.699em;
   border: none;
-  color: #4831d4;
+  color: #071b34;
 
   &::before {
     content: "";
@@ -116,7 +116,7 @@ const Button = styled.button`
     transform: rotate(0deg);
     background-color: currentColor;
     transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
-    color: ${({ open }) => (open ? "#4831d4" : "currentColor")};
+    color: ${({ open }) => (open ? "#071b34" : "currentColor")};
   }
 
   &::after {
@@ -130,7 +130,7 @@ const Button = styled.button`
     background-color: currentColor;
     transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
     margin-top: ${({ open }) => (open ? "-13px" : "0px")};
-    color: ${({ open }) => (open ? "#4831d4" : "currentColor")};
+    color: ${({ open }) => (open ? "#071b34" : "currentColor")};
   }
 
   @media (min-width: 581px) {
