@@ -335,6 +335,7 @@ const Input = styled.input`
   color: currentColor;
   background: transparent;
   border-bottom: 1px solid currentColor;
+  border-top: none;
   outline: none;
   &::placeholder {
     font-family: Abel;
@@ -380,6 +381,7 @@ const TextArea = styled.textarea`
   color: currentColor;
   background: transparent;
   border-bottom: 1px solid currentColor;
+  border-top: none;
   outline: none;
   line-height: 1.5;
   font-size: 1.15em;
