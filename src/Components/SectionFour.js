@@ -294,18 +294,11 @@ const SecondPart = styled.div`
   @media (min-width: 581px) {
     border-bottom-width: 0;
   }
-
-  border-style: solid;
-  border-width: 0 0 0.15rem 0;
-  border-color: rgba(72, 49, 212, 0.3);
   width: 50%;
   padding: 6.95em;
   padding-left: 8em;
   @media (max-width: 900px) {
     width: 100%;
-    border-style: solid;
-    border-width: 0 0 0.15rem 0;
-    border-color: rgba(72, 49, 212, 0.3);
     padding: 5.95em;
     padding-left: 3em;
   }

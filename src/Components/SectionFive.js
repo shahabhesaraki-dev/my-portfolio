@@ -178,7 +178,7 @@ const DivArticle = styled.div`
 
 const Title = styled.h1`
   font-family: Acme;
-  font-size: 3.2em;
+  font-size: 39px;
   margin: 0;
   font-weight: 900;
   line-height: 1.1;
@@ -203,7 +203,7 @@ const FormDiv = styled.div`
   align-items: center;
   justify-content: center;
   width: 60%;
-  min-width: 370px;
+  min-width: 400px;
   @media (max-width: 580px) {
     width: 100%;
   }
@@ -238,7 +238,7 @@ const InnerInputDiv = styled.div`
   display: flex;
   position: relative;
   flex-direction: column;
-  color: rgba(61, 21, 95, 0.7);
+  color: #86b2cb;
   @media (max-width: 701px) {
     margin-top: 2rem;
     width: 100%;
@@ -366,7 +366,7 @@ const InnerMessageDiv = styled.div`
   display: flex;
   position: relative;
   flex-direction: column;
-  color: rgba(61, 21, 95, 0.7);
+  color: #86b2cb;
 `;
 
 const TextArea = styled.textarea`
