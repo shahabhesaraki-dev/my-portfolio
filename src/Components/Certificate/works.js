@@ -139,7 +139,9 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/FaceSpace">
                     Github
                   </Github>
-                  <Live>Live (soon)</Live>
+                  <Live href="https://myfacespaceapp.netlify.app">
+                    Live (Non Responsive)
+                  </Live>
                 </FlexDiv>
               </Detail>
             </Li>
