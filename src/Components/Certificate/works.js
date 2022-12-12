@@ -72,7 +72,7 @@ const Works = () => {
                 <LogoImage src={ANIMAL} />
               </Figure>
               <Detail>
-                <H2>Animal care</H2>
+                <H2>Animal Care</H2>
                 <H3>Main skills:</H3>
                 <Skills>
                   HTML, CSS, JavaScript, React, Node, Express, MongoDB
