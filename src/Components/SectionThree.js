@@ -18,16 +18,16 @@ const SectionThree = () => {
               <br />
               <Paragraph data-aos="fade-up">
                 Hello again! Thanks for scrolling this far!! I am a full-stack
-                web developer with over 4 years of learning experience in couple
-                of programing languages.
+                web developer with over 4 years of learning experience in a
+                couple of programming languages.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                I consider mylself a mern stack developer. During my most recent
+                I consider myself a MERN stack developer. During my most recent
                 bootcamp at Concordia University, I studied Front-end and
                 Back-end development that focused strongly on using MERN stack.
                 I started with React for the front-end and continued with
-                Express, Node and MongoDB for the back-end. I also completed
-                some projects using MERN stack, including HTML, CSS and
+                Express, Node, and MongoDB for the back-end. I also completed
+                some projects using MERN stack, including HTML, CSS, and
                 JavaScript.
               </Paragraph>
               <Paragraph data-aos="fade-up">
@@ -57,16 +57,16 @@ const SectionThree = () => {
               <br />
               <Paragraph data-aos="fade-up">
                 Hello again! Thanks for scrolling this far!! I am a full-stack
-                web developer with over 4 years of learning experience in couple
-                of programing languages.
+                web developer with over 4 years of learning experience in a
+                couple of programming languages.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                I consider mylself a mern stack developer. During my most recent
+                I consider myself a MERN stack developer. During my most recent
                 bootcamp at Concordia University, I studied Front-end and
                 Back-end development that focused strongly on using MERN stack.
                 I started with React for the front-end and continued with
-                Express, Node and MongoDB for the back-end. I also completed
-                some projects using MERN stack, including HTML, CSS and
+                Express, Node, and MongoDB for the back-end. I also completed
+                some projects using MERN stack, including HTML, CSS, and
                 JavaScript.
               </Paragraph>
               <Paragraph data-aos="fade-up">
