@@ -203,7 +203,7 @@ const FormDiv = styled.div`
   align-items: center;
   justify-content: center;
   width: 60%;
-  min-width: 400px;
+  min-width: 390px;
   @media (max-width: 580px) {
     width: 100%;
   }
