@@ -18,7 +18,7 @@ const SectionThree = () => {
               <br />
               <Paragraph data-aos="fade-up">
                 Hello again! Thanks for scrolling this far!! I am a full-stack
-                web developer with over 4 years of learning experience in a
+                web developer with over 3 years of learning experience in a
                 couple of programming languages.
               </Paragraph>
               <Paragraph data-aos="fade-up">
@@ -57,7 +57,7 @@ const SectionThree = () => {
               <br />
               <Paragraph data-aos="fade-up">
                 Hello again! Thanks for scrolling this far!! I am a full-stack
-                web developer with over 4 years of learning experience in a
+                web developer with over 3 years of learning experience in a
                 couple of programming languages.
               </Paragraph>
               <Paragraph data-aos="fade-up">
