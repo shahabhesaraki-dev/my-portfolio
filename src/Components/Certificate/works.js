@@ -80,7 +80,7 @@ const Works = () => {
                   HTML, CSS, JavaScript, React, Node, Express, MongoDB
                 </Skills>
                 <FlexDiv>
-                  <Github href="https://github.com/shahabhesaraki-dev/animalCare">
+                  <Github href="https://github.com/shahabhesaraki-dev/NewAnimalCare">
                     Github
                   </Github>
                   <Live>Live (soon)</Live>
