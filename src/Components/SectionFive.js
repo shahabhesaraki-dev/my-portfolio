@@ -327,14 +327,14 @@ const Input = styled.input`
   font-weight: 200;
   border-color: currentColor;
   line-height: 1.5;
-  font-size: 1.15em;
+  font-size: 1.05em;
   border: 0;
   padding: 0.6em;
   padding-left: 0;
   position: relative;
-  color: currentColor;
+  color: black;
   background: transparent;
-  border-bottom: 1px solid currentColor;
+  border-bottom: 1px solid #86b2cb;
   border-top: none;
   outline: none;
   &::placeholder {
@@ -378,13 +378,13 @@ const TextArea = styled.textarea`
   padding: 0.6em;
   padding-left: 0;
   position: relative;
-  color: currentColor;
+  color: black;
   background: transparent;
-  border-bottom: 1px solid currentColor;
+  border-bottom: 1px solid #86b2cb;
   border-top: none;
   outline: none;
   line-height: 1.5;
-  font-size: 1.15em;
+  font-size: 1.05em;
   &::placeholder {
     font-family: Abel;
   }
