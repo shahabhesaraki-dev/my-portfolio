@@ -27,7 +27,7 @@ const Header = () => {
               }}
               href="#myWork"
             >
-              My Work
+              My Works
             </Link>
           </Li>
           <Li>
