@@ -104,7 +104,9 @@ const SectionFive = () => {
               setComment("");
               setEmail("");
               setName("");
-              setMessage("Thanks! I received your message.");
+              setMessage(
+                `Thanks for your message, ${name}! Please contact me by email.`
+              );
             }}
           >
             <DivButton>
