@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Resume from "./File/SHAHAB HESARAKI - Resume.pdf";
+import Resume from "./File/Shahab-Hesaraki -CV.pdf";
 
 const Footer = () => {
   return (
