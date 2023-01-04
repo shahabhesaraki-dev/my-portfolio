@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import logo from "./img/Shahab-Logo-blue.png";
-import Resume from "./File/Shahab-Hesaraki - Resume.pdf";
+import Resume from "./File/Shahab-Hesaraki -CV.pdf";
 
 const SecondHeader = () => {
   const navigate = useNavigate();

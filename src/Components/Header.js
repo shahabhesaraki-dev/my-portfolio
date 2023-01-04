@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 // import logo from "./img/myLogo.png";
 import logo from "./img/logoFirst.png";
-import Resume from "./File/Shahab-Hesaraki - Resume.pdf";
+import Resume from "./File/Shahab-Hesaraki -CV.pdf";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
