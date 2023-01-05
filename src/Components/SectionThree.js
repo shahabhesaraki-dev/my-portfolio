@@ -17,7 +17,7 @@ const SectionThree = () => {
               <Title data-aos="fade-up">About me</Title>
               <br />
               <Paragraph data-aos="fade-up">
-                Hello again! Thanks for scrolling this far!! I am a full-stack
+                Hello again! Thanks for scrolling this far!! I'm a full-stack
                 web developer with over 3 years of learning experience and over
                 1 year of work experience in a couple of programming languages.
               </Paragraph>
@@ -27,7 +27,7 @@ const SectionThree = () => {
                 Solutions in Canada since February 2022.
               </Paragraph>
               <Paragraph>
-                Iam also learning new languages to expand and improve my skills.
+                I'm also learning new languages to expand and improve my skills.
                 During my most recent bootcamp at Concordia University, I
                 studied Front-end and Back-end development that focused strongly
                 on using MERN stack. I started with React for the front-end and
@@ -36,13 +36,13 @@ const SectionThree = () => {
                 CSS, and JavaScript.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                I am also able to work on PHP projects. As I have two years of
+                I'm also able to work on PHP projects. As I have two years of
                 learning experience in PHP and Laravel in Tehran institute of
                 technology and one year of experience as an intern in Iran.
               </Paragraph>
               <Paragraph style={{ marginBottom: "10px" }} data-aos="fade-up">
                 I'm currently working on a new project (Animal Care). You may
-                find it among my works. In addition, I am learning Typescript. I
+                find it among my works. In addition, I'm learning Typescript. I
                 really enjoy learning new languages. When I'm not programming or
                 studying, I'm probably watching football. This is my favourite
                 activity.
@@ -59,7 +59,7 @@ const SectionThree = () => {
               <Title data-aos="fade-up">About me</Title>
               <br />
               <Paragraph data-aos="fade-up">
-                Hello again! Thanks for scrolling this far!! I am a full-stack
+                Hello again! Thanks for scrolling this far!! I'm a full-stack
                 web developer with over 3 years of learning experience and over
                 1 year of work experience in a couple of programming languages.
               </Paragraph>
@@ -69,7 +69,7 @@ const SectionThree = () => {
                 Solutions in Canada since February 2022.
               </Paragraph>
               <Paragraph>
-                Iam also learning new languages to expand and improve my skills.
+                I'm also learning new languages to expand and improve my skills.
                 During my most recent bootcamp at Concordia University, I
                 studied Front-end and Back-end development that focused strongly
                 on using MERN stack. I started with React for the front-end and
@@ -78,13 +78,13 @@ const SectionThree = () => {
                 CSS, and JavaScript.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                I am also able to work on PHP projects. As I have two years of
+                I'm also able to work on PHP projects. As I have two years of
                 learning experience in PHP and Laravel in Tehran institute of
                 technology and one year of experience as an intern in Iran.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I'm currently working on a new project (Animal Care). You may
-                find it among my works. In addition, I am learning Typescript. I
+                find it among my works. In addition, I'm learning Typescript. I
                 really enjoy learning new languages. When I'm not programming or
                 studying, I'm probably watching football. This is my favourite
                 activity.
