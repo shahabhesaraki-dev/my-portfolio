@@ -43,11 +43,9 @@ const SectionThree = () => {
               <Paragraph data-aos="fade-up">
                 I'm currently working on a new project (Animal Care). You may
                 find it among my works. In addition, I am learning Typescript. I
-                really enjoy learning new languages.
-              </Paragraph>
-              <Paragraph data-aos="fade-up">
-                When I'm not programming or studying, I'm probably watching
-                football. This is my favourite activity.
+                really enjoy learning new languages. When I'm not programming or
+                studying, I'm probably watching football. This is my favourite
+                activity.
               </Paragraph>
             </ContentDiv>
           </Article>
@@ -87,11 +85,9 @@ const SectionThree = () => {
               <Paragraph data-aos="fade-up">
                 I'm currently working on a new project (Animal Care). You may
                 find it among my works. In addition, I am learning Typescript. I
-                really enjoy learning new languages.
-              </Paragraph>
-              <Paragraph data-aos="fade-up">
-                When I'm not programming or studying, I'm probably watching
-                football. This is my favourite activity.
+                really enjoy learning new languages. When I'm not programming or
+                studying, I'm probably watching football. This is my favourite
+                activity.
               </Paragraph>
             </ContentDiv>
           </Article>
