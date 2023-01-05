@@ -40,7 +40,7 @@ const SectionThree = () => {
                 learning experience in PHP and Laravel in Tehran institute of
                 technology and one year of experience as an intern in Iran.
               </Paragraph>
-              <Paragraph data-aos="fade-up">
+              <Paragraph style={{ marginBottom: "10px" }} data-aos="fade-up">
                 I'm currently working on a new project (Animal Care). You may
                 find it among my works. In addition, I am learning Typescript. I
                 really enjoy learning new languages. When I'm not programming or
