@@ -18,17 +18,22 @@ const SectionThree = () => {
               <br />
               <Paragraph data-aos="fade-up">
                 Hello again! Thanks for scrolling this far!! I am a full-stack
-                web developer with over 3 years of learning experience in a
-                couple of programming languages.
+                web developer with over 3 years of learning experience and over
+                1 year of work experience in a couple of programming languages.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                I consider myself a MERN stack developer. During my most recent
-                bootcamp at Concordia University, I studied Front-end and
-                Back-end development that focused strongly on using MERN stack.
-                I started with React for the front-end and continued with
-                Express, Node, and MongoDB for the back-end. I also completed
-                some projects using MERN stack, including HTML, CSS, and
-                JavaScript.
+                I consider myself a MERN stack developer. I've been working
+                part-time as a Junior Full-Stack web developer at Araz IT
+                Solutions in Canada since February 2022.
+              </Paragraph>
+              <Paragraph>
+                Iam also learning new languages to expand and improve my skills.
+                During my most recent bootcamp at Concordia University, I
+                studied Front-end and Back-end development that focused strongly
+                on using MERN stack. I started with React for the front-end and
+                continued with Express, Node, and MongoDB for the back-end. I
+                also completed some projects using MERN stack, including HTML,
+                CSS, and JavaScript.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I am also able to work on PHP projects. As I have two years of
@@ -57,17 +62,22 @@ const SectionThree = () => {
               <br />
               <Paragraph data-aos="fade-up">
                 Hello again! Thanks for scrolling this far!! I am a full-stack
-                web developer with over 3 years of learning experience in a
-                couple of programming languages.
+                web developer with over 3 years of learning experience and over
+                1 year of work experience in a couple of programming languages.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                I consider myself a MERN stack developer. During my most recent
-                bootcamp at Concordia University, I studied Front-end and
-                Back-end development that focused strongly on using MERN stack.
-                I started with React for the front-end and continued with
-                Express, Node, and MongoDB for the back-end. I also completed
-                some projects using MERN stack, including HTML, CSS, and
-                JavaScript.
+                I consider myself a MERN stack developer. I've been working
+                part-time as a Junior Full-Stack web developer at Araz IT
+                Solutions in Canada since February 2022.
+              </Paragraph>
+              <Paragraph>
+                Iam also learning new languages to expand and improve my skills.
+                During my most recent bootcamp at Concordia University, I
+                studied Front-end and Back-end development that focused strongly
+                on using MERN stack. I started with React for the front-end and
+                continued with Express, Node, and MongoDB for the back-end. I
+                also completed some projects using MERN stack, including HTML,
+                CSS, and JavaScript.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I am also able to work on PHP projects. As I have two years of
