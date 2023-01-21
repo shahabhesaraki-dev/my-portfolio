@@ -26,7 +26,7 @@ const SectionThree = () => {
                 part-time as a Junior Full-Stack web developer at Araz IT
                 Solutions in Canada since February 2022.
               </Paragraph>
-              <Paragraph>
+              <Paragraph data-aos="fade-up">
                 I'm also learning new languages to expand and improve my skills.
                 During my most recent bootcamp at Concordia University, I
                 studied Front-end and Back-end development that focused strongly
@@ -68,7 +68,7 @@ const SectionThree = () => {
                 part-time as a Junior Full-Stack web developer at Araz IT
                 Solutions in Canada since February 2022.
               </Paragraph>
-              <Paragraph>
+              <Paragraph data-aos="fade-up">
                 I'm also learning new languages to expand and improve my skills.
                 During my most recent bootcamp at Concordia University, I
                 studied Front-end and Back-end development that focused strongly
