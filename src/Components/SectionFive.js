@@ -101,12 +101,18 @@ const SectionFive = () => {
 
           <Button
             onClick={() => {
-              setComment("");
-              setEmail("");
-              setName("");
-              setMessage(
-                `Thanks for your message, ${name}! Please contact me by email.`
-              );
+              if (
+                name.length !== 0 &&
+                email.length !== 0 &&
+                comment.length !== 0
+              ) {
+                setComment("");
+                setEmail("");
+                setName("");
+                setMessage(
+                  `Thanks for your message, ${name}! Please contact me by email.`
+                );
+              }
             }}
           >
             <DivButton>
