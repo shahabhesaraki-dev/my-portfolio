@@ -6,7 +6,6 @@ import ANIMAL from "../img/AnimalProject.png";
 import ECOMMERCE from "../img/Ecommerce-project.png";
 import NEWS from "../img/NewProject.png";
 import SLINGAIR from "../img/Slingair-project.png";
-import FACESPACE from "../img/Facespace-project.png";
 import { useNavigate } from "react-router-dom";
 
 const Works = () => {
@@ -123,24 +122,6 @@ const Works = () => {
                   </Github>
                   <Live href="https://myslingairapp.netlify.app">
                     Live (Responsive)
-                  </Live>
-                </FlexDiv>
-              </Detail>
-            </Li>
-            <Li>
-              <Figure>
-                <LogoImage src={FACESPACE} />
-              </Figure>
-              <Detail>
-                <H2>FaceSpace</H2>
-                <H3>Main skills:</H3>
-                <Skills>HTML, CSS, JavaScript, React, Node, Express</Skills>
-                <FlexDiv>
-                  <Github href="https://github.com/shahabhesaraki-dev/FaceSpace">
-                    Github
-                  </Github>
-                  <Live href="https://myfacespaceapp.netlify.app">
-                    Live (Non Responsive)
                   </Live>
                 </FlexDiv>
               </Detail>
