@@ -19,7 +19,7 @@ const SectionThree = () => {
               <Paragraph data-aos="fade-up">
                 Hello once more! Thank you for reading this far!! I'm a
                 full-stack web developer with two years of hands-on experience
-                working on web applications
+                working on web applications.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I consider myself a MERN stack developer. I've been working
@@ -61,7 +61,7 @@ const SectionThree = () => {
               <Paragraph data-aos="fade-up">
                 Hello once more! Thank you for reading this far!! I'm a
                 full-stack web developer with two years of hands-on experience
-                working on web applications
+                working on web applications.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I consider myself a MERN stack developer. I've been working
