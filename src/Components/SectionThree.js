@@ -24,7 +24,7 @@ const SectionThree = () => {
               <Paragraph data-aos="fade-up">
                 I consider myself a MERN stack developer. I've been working
                 part-time as a Junior Full-Stack web developer at Araz IT
-                Solutions in Canada since February 2022.
+                Solutions in Canada since 2022.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I'm also learning new languages to expand and improve my skills.
@@ -66,7 +66,7 @@ const SectionThree = () => {
               <Paragraph data-aos="fade-up">
                 I consider myself a MERN stack developer. I've been working
                 part-time as a Junior Full-Stack web developer at Araz IT
-                Solutions in Canada since February 2022.
+                Solutions in Canada since 2022.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I'm also learning new languages to expand and improve my skills.
