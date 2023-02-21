@@ -84,7 +84,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/NewAnimalCare">
                     Github
                   </Github>
-                  <Live>Live (soon)</Live>
+                  <Live href="https://www.youtube.com/watch?v=psBpBCLUfX8">Live</Live>
                 </FlexDiv>
               </Detail>
             </Li>
