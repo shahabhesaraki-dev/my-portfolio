@@ -30,9 +30,7 @@ const Works = () => {
               <Detail>
                 <H2>Portfolio</H2>
                 <H3>Main skills:</H3>
-                <Skills>
-                  HTML, CSS, JavaScript, React, Node, Express, MongoDB
-                </Skills>
+                <Skills>HTML, CSS, JavaScript, React</Skills>
                 <FlexDiv>
                   <Github href="https://github.com/shahabhesaraki-dev/my-portfolio">
                     Github
@@ -84,7 +82,9 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/NewAnimalCare">
                     Github
                   </Github>
-                  <Live href="https://www.youtube.com/watch?v=psBpBCLUfX8">Live</Live>
+                  <Live href="https://www.youtube.com/watch?v=psBpBCLUfX8">
+                    Live
+                  </Live>
                 </FlexDiv>
               </Detail>
             </Li>
