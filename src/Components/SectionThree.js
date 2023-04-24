@@ -41,11 +41,9 @@ const SectionThree = () => {
                 technology and one year of experience as an intern in Iran.
               </Paragraph>
               <Paragraph style={{ marginBottom: "10px" }} data-aos="fade-up">
-                I'm currently working on a new project (Animal Care). You may
-                find it among my works. In addition, I'm learning Typescript. I
-                really enjoy learning new languages. When I'm not programming or
-                studying, I'm probably watching football. This is my favourite
-                activity.
+                I'm currently learning Java. I really enjoy learning new
+                languages. When I'm not programming or studying, I'm probably
+                watching football. This is my favourite activity.
               </Paragraph>
             </ContentDiv>
           </Article>
@@ -83,11 +81,9 @@ const SectionThree = () => {
                 technology and one year of experience as an intern in Iran.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                I'm currently working on a new project (Animal Care). You may
-                find it among my works. In addition, I'm learning Typescript. I
-                really enjoy learning new languages. When I'm not programming or
-                studying, I'm probably watching football. This is my favourite
-                activity.
+                I'm currently learning Java. I really enjoy learning new
+                languages. When I'm not programming or studying, I'm probably
+                watching football. This is my favourite activity.
               </Paragraph>
             </ContentDiv>
           </Article>

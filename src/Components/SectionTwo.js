@@ -14,6 +14,7 @@ import GITHUB from "./img/github-256.png";
 import MYSQL from "./img/mysql-256.png";
 import MONGODB from "./img/mongodb-256.png";
 import AMAZON from "./img/amazon-256.png";
+import JAVA from "./img/javaPng.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -47,6 +48,10 @@ const SectionTwo = () => {
               <Li>
                 <Image src={REACT} />
                 <SkillsName>React</SkillsName>
+              </Li>
+              <Li>
+                <BiggerImage src={JAVA} />
+                <SkillsName>Java</SkillsName>
               </Li>
               <Li>
                 <Image src={BOOTSTRAP} />
@@ -161,6 +166,10 @@ const SectionTwo = () => {
             <Li>
               <Image src={REACT} />
               <SkillsName>React</SkillsName>
+            </Li>
+            <Li>
+              <BiggerImage src={JAVA} />
+              <SkillsName>Java</SkillsName>
             </Li>
             <Li>
               <Image src={BOOTSTRAP} />
