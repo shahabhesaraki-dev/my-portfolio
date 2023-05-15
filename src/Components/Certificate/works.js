@@ -43,7 +43,7 @@ const Works = () => {
                       }, 0);
                     }}
                   >
-                    Live (Responsive)
+                    Live
                   </Live>
                 </FlexDiv>
               </Detail>
@@ -62,9 +62,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/E-Commerce-Project">
                     Github
                   </Github>
-                  <Live href="https://myecommerceapps.netlify.app">
-                    Live (Non Responsive)
-                  </Live>
+                  <Live href="https://myecommerceapps.netlify.app">Live</Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -103,7 +101,7 @@ const Works = () => {
                     Github
                   </Github>
                   <Live href="https://www.youtube.com/watch?v=UiRDtMnco44&ab_channel=ShahabHesaraki">
-                    Live (Non Responsive)
+                    Live
                   </Live>
                 </FlexDiv>
               </Detail>
@@ -122,9 +120,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/SlingAir">
                     Github
                   </Github>
-                  <Live href="https://myslingairapp.netlify.app">
-                    Live (Responsive)
-                  </Live>
+                  <Live href="https://myslingairapp.netlify.app">Live</Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -140,9 +136,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/Cookie-Game">
                     Github
                   </Github>
-                  <Live href="https://mycookiegameapp.netlify.app">
-                    Live (Responsive)
-                  </Live>
+                  <Live href="https://mycookiegameapp.netlify.app">Live</Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -158,9 +152,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/HangMan">
                     Github
                   </Github>
-                  <Live href="https://myhangmanproject.netlify.app">
-                    Live (Responsive)
-                  </Live>
+                  <Live href="https://myhangmanproject.netlify.app">Live</Live>
                 </FlexDiv>
               </Detail>
             </Li>
