@@ -62,7 +62,9 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/E-Commerce-Project">
                     Github
                   </Github>
-                  <Live href="https://myecommerceapps.netlify.app">Live</Live>
+                  <Live href="https://www.youtube.com/watch?v=pdgMuTa_YmA&t=2s&ab_channel=ShahabHesaraki">
+                    Live
+                  </Live>
                 </FlexDiv>
               </Detail>
             </Li>
