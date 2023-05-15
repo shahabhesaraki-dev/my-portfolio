@@ -102,7 +102,7 @@ const Works = () => {
                   <Github href="https://github.com/shahabhesaraki-dev/Concordia-FinalProject">
                     Github
                   </Github>
-                  <Live href="https://mynewsapplication.netlify.app">
+                  <Live href="https://www.youtube.com/watch?v=UiRDtMnco44&ab_channel=ShahabHesaraki">
                     Live (Non Responsive)
                   </Live>
                 </FlexDiv>
