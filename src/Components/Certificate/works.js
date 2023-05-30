@@ -7,7 +7,8 @@ import ECOMMERCE from "../img/Ecommerce-project.png";
 import NEWS from "../img/NewProject.png";
 import SLINGAIR from "../img/Slingair-project.png";
 import COOKIEGAME from "../img/cookieGame-project.png";
-import HANGMAN from "../img/hangMan.png";
+// import HANGMAN from "../img/hangMan.png";
+import QUIZAPP from "../img/quizApp.png";
 import { useNavigate } from "react-router-dom";
 
 const Works = () => {
@@ -142,7 +143,7 @@ const Works = () => {
                 </FlexDiv>
               </Detail>
             </Li>
-            <Li>
+            {/* <Li>
               <Figure>
                 <LogoImage src={HANGMAN} />
               </Figure>
@@ -155,6 +156,22 @@ const Works = () => {
                     Github
                   </Github>
                   <Live href="https://myhangmanproject.netlify.app">Live</Live>
+                </FlexDiv>
+              </Detail>
+            </Li> */}
+            <Li>
+              <Figure>
+                <LogoImage src={QUIZAPP} />
+              </Figure>
+              <Detail>
+                <H2>Quiz Game</H2>
+                <H3>Main skills:</H3>
+                <Skills>HTML, CSS, JavaScript, Typescript, React</Skills>
+                <FlexDiv>
+                  <Github href="https://github.com/shahabhesaraki-dev/Quiz-Application">
+                    Github
+                  </Github>
+                  <Live href="https://myquiiz-app.netlify.app">Live</Live>
                 </FlexDiv>
               </Detail>
             </Li>
