@@ -5,9 +5,9 @@ import PORTFOLIO from "../img/Portfolio.png";
 import ANIMAL from "../img/AnimalProject.png";
 import ECOMMERCE from "../img/Ecommerce-project.png";
 import NEWS from "../img/NewProject.png";
-import SLINGAIR from "../img/Slingair-project.png";
+// import SLINGAIR from "../img/Slingair-project.png";
 import COOKIEGAME from "../img/cookieGame-project.png";
-// import HANGMAN from "../img/hangMan.png";
+import HANGMAN from "../img/hangMan.png";
 import QUIZAPP from "../img/quizApp.png";
 import { useNavigate } from "react-router-dom";
 
@@ -109,7 +109,7 @@ const Works = () => {
                 </FlexDiv>
               </Detail>
             </Li>
-            <Li>
+            {/* <Li>
               <Figure>
                 <LogoImage src={SLINGAIR} />
               </Figure>
@@ -126,7 +126,7 @@ const Works = () => {
                   <Live href="https://myslingairapp.netlify.app">Live</Live>
                 </FlexDiv>
               </Detail>
-            </Li>
+            </Li> */}
             <Li>
               <Figure>
                 <LogoImage src={COOKIEGAME} />
@@ -143,7 +143,7 @@ const Works = () => {
                 </FlexDiv>
               </Detail>
             </Li>
-            {/* <Li>
+            <Li>
               <Figure>
                 <LogoImage src={HANGMAN} />
               </Figure>
@@ -158,7 +158,8 @@ const Works = () => {
                   <Live href="https://myhangmanproject.netlify.app">Live</Live>
                 </FlexDiv>
               </Detail>
-            </Li> */}
+            </Li>
+
             <Li>
               <Figure>
                 <LogoImage src={QUIZAPP} />
