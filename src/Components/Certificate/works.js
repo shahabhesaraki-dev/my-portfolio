@@ -5,7 +5,6 @@ import PORTFOLIO from "../img/Portfolio.png";
 import ANIMAL from "../img/AnimalProject.png";
 import ECOMMERCE from "../img/Ecommerce-project.png";
 import NEWS from "../img/NewProject.png";
-// import SLINGAIR from "../img/Slingair-project.png";
 import COOKIEGAME from "../img/cookieGame-project.png";
 import HANGMAN from "../img/hangMan.png";
 import QUIZAPP from "../img/quizApp.png";
@@ -109,24 +108,6 @@ const Works = () => {
                 </FlexDiv>
               </Detail>
             </Li>
-            {/* <Li>
-              <Figure>
-                <LogoImage src={SLINGAIR} />
-              </Figure>
-              <Detail>
-                <H2>SlingAir</H2>
-                <H3>Main skills:</H3>
-                <Skills>
-                  HTML, CSS, JavaScript, React, Node, Express, MongoDB
-                </Skills>
-                <FlexDiv>
-                  <Github href="https://github.com/shahabhesaraki-dev/SlingAir">
-                    Github
-                  </Github>
-                  <Live href="https://myslingairapp.netlify.app">Live</Live>
-                </FlexDiv>
-              </Detail>
-            </Li> */}
             <Li>
               <Figure>
                 <LogoImage src={COOKIEGAME} />
