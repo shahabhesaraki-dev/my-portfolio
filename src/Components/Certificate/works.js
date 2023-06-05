@@ -32,7 +32,10 @@ const Works = () => {
                 <H3>Main skills:</H3>
                 <Skills>HTML, CSS, JavaScript, React</Skills>
                 <FlexDiv>
-                  <Github href="https://github.com/shahabhesaraki-dev/my-portfolio">
+                  <Github
+                    target="_blank"
+                    href="https://github.com/shahabhesaraki-dev/my-portfolio"
+                  >
                     Github
                   </Github>
                   <Live
@@ -59,10 +62,16 @@ const Works = () => {
                   HTML, CSS, JavaScript, React, Node, Express, MongoDB
                 </Skills>
                 <FlexDiv>
-                  <Github href="https://github.com/shahabhesaraki-dev/E-Commerce-Project">
+                  <Github
+                    target="_blank"
+                    href="https://github.com/shahabhesaraki-dev/E-Commerce-Project"
+                  >
                     Github
                   </Github>
-                  <Live href="https://www.youtube.com/watch?v=pdgMuTa_YmA&t=2s&ab_channel=ShahabHesaraki">
+                  <Live
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=pdgMuTa_YmA&t=2s&ab_channel=ShahabHesaraki"
+                  >
                     Live
                   </Live>
                 </FlexDiv>
@@ -79,10 +88,16 @@ const Works = () => {
                   HTML, CSS, JavaScript, React, Node, Express, MongoDB
                 </Skills>
                 <FlexDiv>
-                  <Github href="https://github.com/shahabhesaraki-dev/NewAnimalCare">
+                  <Github
+                    target="_blank"
+                    href="https://github.com/shahabhesaraki-dev/NewAnimalCare"
+                  >
                     Github
                   </Github>
-                  <Live href="https://www.youtube.com/watch?v=psBpBCLUfX8">
+                  <Live
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=psBpBCLUfX8"
+                  >
                     Live
                   </Live>
                 </FlexDiv>
@@ -99,10 +114,16 @@ const Works = () => {
                   HTML, CSS, JavaScript, React, Node, Express, MongoDB
                 </Skills>
                 <FlexDiv>
-                  <Github href="https://github.com/shahabhesaraki-dev/Concordia-FinalProject">
+                  <Github
+                    target="_blank"
+                    href="https://github.com/shahabhesaraki-dev/Concordia-FinalProject"
+                  >
                     Github
                   </Github>
-                  <Live href="https://www.youtube.com/watch?v=UiRDtMnco44&ab_channel=ShahabHesaraki">
+                  <Live
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=UiRDtMnco44&ab_channel=ShahabHesaraki"
+                  >
                     Live
                   </Live>
                 </FlexDiv>
@@ -117,10 +138,18 @@ const Works = () => {
                 <H3>Main skills:</H3>
                 <Skills>HTML, CSS, JavaScript, React</Skills>
                 <FlexDiv>
-                  <Github href="https://github.com/shahabhesaraki-dev/Cookie-Game">
+                  <Github
+                    target="_blank"
+                    href="https://github.com/shahabhesaraki-dev/Cookie-Game"
+                  >
                     Github
                   </Github>
-                  <Live href="https://mycookiegameapp.netlify.app">Live</Live>
+                  <Live
+                    target="_blank"
+                    href="https://mycookiegameapp.netlify.app"
+                  >
+                    Live
+                  </Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -133,10 +162,18 @@ const Works = () => {
                 <H3>Main skills:</H3>
                 <Skills>HTML, CSS, JavaScript, React</Skills>
                 <FlexDiv>
-                  <Github href="https://github.com/shahabhesaraki-dev/HangMan">
+                  <Github
+                    target="_blank"
+                    href="https://github.com/shahabhesaraki-dev/HangMan"
+                  >
                     Github
                   </Github>
-                  <Live href="https://myhangmanproject.netlify.app">Live</Live>
+                  <Live
+                    target="_blank"
+                    href="https://myhangmanproject.netlify.app"
+                  >
+                    Live
+                  </Live>
                 </FlexDiv>
               </Detail>
             </Li>
@@ -150,10 +187,15 @@ const Works = () => {
                 <H3>Main skills:</H3>
                 <Skills>HTML, CSS, JavaScript, Typescript, React</Skills>
                 <FlexDiv>
-                  <Github href="https://github.com/shahabhesaraki-dev/Quiz-Application">
+                  <Github
+                    target="_blank"
+                    href="https://github.com/shahabhesaraki-dev/Quiz-Application"
+                  >
                     Github
                   </Github>
-                  <Live href="https://myquiiz-app.netlify.app">Live</Live>
+                  <Live target="_blank" href="https://myquiiz-app.netlify.app">
+                    Live
+                  </Live>
                 </FlexDiv>
               </Detail>
             </Li>
