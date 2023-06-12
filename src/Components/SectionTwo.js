@@ -50,10 +50,6 @@ const SectionTwo = () => {
                 <SkillsName>React</SkillsName>
               </Li>
               <Li>
-                <BiggerImage src={JAVA} />
-                <SkillsName>Java</SkillsName>
-              </Li>
-              <Li>
                 <Image src={BOOTSTRAP} />
                 <SkillsName>Bootstrap</SkillsName>
               </Li>
@@ -86,6 +82,10 @@ const SectionTwo = () => {
           <SecondContent>
             <Title>Back-End/ Tools</Title>
             <Ul data-aos="fade-right">
+              <Li>
+                <LittleBigger src={JAVA} />
+                <SkillsName style={{ marginTop: "6px" }}>Java</SkillsName>
+              </Li>
               <Li>
                 <LittleBigger src={NODE} />
                 <SkillsName style={{ marginTop: "6px" }}>Node</SkillsName>
@@ -167,10 +167,7 @@ const SectionTwo = () => {
               <Image src={REACT} />
               <SkillsName>React</SkillsName>
             </Li>
-            <Li>
-              <BiggerImage src={JAVA} />
-              <SkillsName>Java</SkillsName>
-            </Li>
+
             <Li>
               <Image src={BOOTSTRAP} />
               <SkillsName>Bootstrap</SkillsName>
@@ -180,6 +177,10 @@ const SectionTwo = () => {
         <ResponsiveSecondContent>
           <Title>Back-End/Tools</Title>
           <Ul data-aos="fade-up">
+            <Li>
+              <LittleBigger src={JAVA} />
+              <SkillsName style={{ marginTop: "6px" }}>Java</SkillsName>
+            </Li>
             <Li>
               <LittleBigger src={NODE} />
               <SkillsName style={{ marginTop: "6px" }}>Node</SkillsName>
