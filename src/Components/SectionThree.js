@@ -18,13 +18,13 @@ const SectionThree = () => {
               <br />
               <Paragraph data-aos="fade-up">
                 Hello once more! Thank you for reading this far!! I'm a
-                full-stack web developer with two years of hands-on experience
+                full-stack web developer with three years of hands-on experience
                 working on web applications.
               </Paragraph>
               <Paragraph data-aos="fade-up">
-                I consider myself a MERN stack developer. I've been working
-                part-time as a Junior Full-Stack web developer at Araz IT
-                Solutions in Canada since 2022.
+                I consider myself a MERN stack developer. I've been working as a
+                Full-Stack web developer at Araz IT Solutions in Canada since
+                2022.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I'm also learning new languages to expand and improve my skills.
@@ -32,13 +32,13 @@ const SectionThree = () => {
                 studied Front-end and Back-end development that focused strongly
                 on using MERN stack. I started with React for the front-end and
                 continued with Express, Node, and MongoDB for the back-end. I
-                also completed some projects using MERN stack, including HTML,
-                CSS, and JavaScript.
+                also completed several projects using MERN stack, including
+                HTML, CSS, and JavaScript.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I'm also able to work on PHP projects. As I have two years of
                 learning experience in PHP and Laravel in Tehran institute of
-                technology and one year of experience as an intern in Iran.
+                technology and over one year of experience in Iran.
               </Paragraph>
               <Paragraph style={{ marginBottom: "10px" }} data-aos="fade-up">
                 I'm currently learning Java. I really enjoy learning new
@@ -58,7 +58,7 @@ const SectionThree = () => {
               <br />
               <Paragraph data-aos="fade-up">
                 Hello once more! Thank you for reading this far!! I'm a
-                full-stack web developer with two years of hands-on experience
+                full-stack web developer with three years of hands-on experience
                 working on web applications.
               </Paragraph>
               <Paragraph data-aos="fade-up">
@@ -72,13 +72,13 @@ const SectionThree = () => {
                 studied Front-end and Back-end development that focused strongly
                 on using MERN stack. I started with React for the front-end and
                 continued with Express, Node, and MongoDB for the back-end. I
-                also completed some projects using MERN stack, including HTML,
-                CSS, and JavaScript.
+                also completed several projects using MERN stack, including
+                HTML, CSS, and JavaScript.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I'm also able to work on PHP projects. As I have two years of
                 learning experience in PHP and Laravel in Tehran institute of
-                technology and one year of experience as an intern in Iran.
+                technology and over one year of experience in Iran.
               </Paragraph>
               <Paragraph data-aos="fade-up">
                 I'm currently learning Java. I really enjoy learning new
