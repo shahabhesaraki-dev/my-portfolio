@@ -20,7 +20,7 @@ const Footer = () => {
               </Li>
               <Li>
                 <Link
-                  href="https://www.linkedin.com/in/shahab-hesaraki-80132317a"
+                  href="https://www.linkedin.com/in/shahab-hesaraki"
                   target="_blank"
                 >
                   Linkedin
