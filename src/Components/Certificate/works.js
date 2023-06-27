@@ -8,6 +8,7 @@ import NEWS from "../img/NewProject.png";
 import COOKIEGAME from "../img/cookieGame-project.png";
 import HANGMAN from "../img/hangMan.png";
 import QUIZAPP from "../img/quizApp.png";
+import SHOPPINGCART from "../img/ShoppingCart.png";
 import { useNavigate } from "react-router-dom";
 
 const Works = () => {
@@ -194,6 +195,31 @@ const Works = () => {
                     Github
                   </Github>
                   <Live target="_blank" href="https://myquiiz-app.netlify.app">
+                    Live
+                  </Live>
+                </FlexDiv>
+              </Detail>
+            </Li>
+
+            <Li>
+              <Figure>
+                <LogoImage src={SHOPPINGCART} />
+              </Figure>
+              <Detail>
+                <H2>Shopping Cart</H2>
+                <H3>Main skills:</H3>
+                <Skills>HTML, CSS, Bootstrap, JavaScript, React</Skills>
+                <FlexDiv>
+                  <Github
+                    target="_blank"
+                    href="https://github.com/shahabhesaraki-dev/ShoppingCart-Demo"
+                  >
+                    Github
+                  </Github>
+                  <Live
+                    target="_blank"
+                    href="https://myshoppingcartdemo.netlify.app/"
+                  >
                     Live
                   </Live>
                 </FlexDiv>
